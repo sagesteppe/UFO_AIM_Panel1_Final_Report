@@ -1,7 +1,7 @@
 # Uncompahgre Field Office Terrestrial Assess, Inventory and Monitor Final Report
 This repository contains the code to assemble all Chapters of the AIM project into a final document. It also contains a loose guide to the R scripts and data we used for ths project.
 
-Layout of the final report:
+## Layout of the final report:
 
 1) Cover page
 2) Report Identifier Information
@@ -32,10 +32,32 @@ It is worth noting, essentially, all computations were performed outside of the 
 
 However, with that said, computational power may be a limit for some. Two different hardware environments will be referred to colloquially throughout these scipts. One computer referred to as 'lightscape' and another (seldom noted) as 'parkland'. Nearly all computations were performed on 'parkland', (hopefully) unless otherwise noted. The specs of Parkland and Lightscape are listed at the end of this page, and you should ensure you have appropriate compute power; in nearly all cases you should.
 
-Project Directory Structure:
+## Project Directory Structure:
+This project utilizes the idea of *relative paths*. There are essentially two very common ways to 'identify' a location on a computers memory. The first can be thought of as form the root of the computer. For example, if your neighbor saw you on the street and asked you for directions to your favorite deli, you may only be able to state the directions from your house - *not* the location we are currently at. If the same neighbor asked you for directions to the deli you just ate at, you may only be able to give them directions from *where* you currently are. 
+
+The path from the 'base' of a computer all the way to a file is called an 'absolute path'. 
+> '/home/UserName/Documents/FavoriteDeli
+The path from the current location on a computer to where a file is located is called a 'relative path'.
+
+If we were already in 'Documents' part of town (and this is where the example turns sour), we could simply navigate to Deli we just ate as:  
+> './DeliWeJustAteAt'  
+that first '.', just means 'LOOK FOR FOLDER HERE!!!' and (in most? programming languages) this can be shortened to:    
+> 'DeliWeJustAteAt'  
+
+Now let us consider one more possibility, we return to our office in the 'Documents' part of town, and our co-worker, 'Dave' asks where we ate for lunch, and wants to go out himself. We can give dave directions from our office.
+
+For illustrative purposes the absolute path to our office is:  
+> '/home/UserName/Documents/TheOffice' 
+
+And we can give Dave directions like:
+> '../DeliWeJustAteAt'
+
+where '..', means go up one level, or 'out of the current building'
 
 
-Github Repositories:
+
+
+## Github Repositories:
 
 
 
