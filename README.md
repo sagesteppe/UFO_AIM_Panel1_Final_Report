@@ -36,7 +36,8 @@ However, with that said, computational power may be a limit for some. Two differ
 This project utilizes the idea of *relative paths*. There are essentially two very common ways to 'identify' a location on a computers memory. The first can be thought of as form the root of the computer. For example, if your neighbor saw you on the street and asked you for directions to your favorite deli, you may only be able to state the directions from your house - *not* the location we are currently at. If the same neighbor asked you for directions to the deli you just ate at, you may only be able to give them directions from *where* you currently are. 
 
 The path from the 'base' of a computer all the way to a file is called an 'absolute path'. 
-> '/home/UserName/Documents/FavoriteDeli
+> '/home/UserName/Documents/FavoriteDeli  
+
 The path from the current location on a computer to where a file is located is called a 'relative path'.
 
 If we were already in 'Documents' part of town (and this is where the example turns sour), we could simply navigate to Deli we just ate as:  
@@ -52,17 +53,62 @@ For illustrative purposes the absolute path to our office is:
 And we can give Dave directions like:
 > '../DeliWeJustAteAt'
 
-where '..', means go up one level, or 'out of the current building'
+where '..', means go up one level, or 'out of the current building'. What a relative path does is make it easy to share project structures across multiple computers. 
+
+Our whole project structure is essentially 'flat' and looks like this:
 
 
+```
+.
+├── AIM_Field_rasters
+├── AIM_Frame1_data
+├── drought_geospatial
+├── Get_Gridmet
+├── GraphModulesEsds
+├── NAIP
+├── plot_post_stratification
+├── UFO_AIM_Compliance
+├── UFO_AIM_Design_Stratification
+├── UFO_AIM_Panel1_Final_Report
+├── UFO_cartography
+├── UFO_cover_estimates_ESD_ESG
+├── UFO_drought
+├── UFO_elements_of_style
+├── UFO_ESD_completion
+├── UFO_ESD_manual_classification
+├── UFO_noxious_weeds
+├── UFO_Plant_Diversity
+├── UFO_Soil_Stability
+├── UFO_Weights_for_stratification
+├── UFO_Weighted_Analyses
+├── UFO_bareground
+```
 
+A suitable thing to do would be to create your own directory (folder) called, 'UFO_AIM', and just store these in there! And using relative paths you can leap frog back and forth between projects to grab data!
+
+### Individual sub-project Directory Structures
+
+each of the above folders, *mostly* follow the same substructure, here is the example from the 'drought_geospatial' directory. 
+
+```
+.
+├── citations
+│   ├── citations
+│   └── literature
+├── data
+│   ├── processed
+│   │   ├── SPEI
+│   │   └── SPEI_coarse
+│   └── raw
+│       └── SPEI_coarse
+├── results
+└── scripts
+```
 
 ## Github Repositories:
 
 
-
-===================
-Hardware Specs:
+## Hardware Specs:
 
 Parkland:  
 12th Gen Intel(R) Core(TM) i7-12700H  
