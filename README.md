@@ -120,16 +120,16 @@ each of the above folders, *mostly* follow the same substructure, here is the ex
 
 [UFO_cover_estimates_ESD_ESG](https://github.com/sagesteppe/UFO_cover_estimates_ESD_ESG)  Compare the reference benchmark conditions for Ecological Sites, with 'Ecological Site Group' derived mean values.
 
-[UFO_drought](https://github.com/sagesteppe/UFO_drought)     Calculate the Standardized Precipitation Evapotranspiration Index (SPEI) at the scale of a BLM Office scale. 
-[UFO_elements_of_style](https://github.com/sagesteppe/UFO-elements-of-style)   Design elements for a consistent 5 year AIM report. We define palettes, ggplot themes, and write some function to automate plot creation for us.
+[UFO_drought](https://github.com/sagesteppe/UFO_drought) Calculate the Standardized Precipitation Evapotranspiration Index (SPEI) at the scale of a BLM Office scale.   
+[UFO_elements_of_style](https://github.com/sagesteppe/UFO-elements-of-style)   Design elements for a consistent 5 year AIM report. We define palettes, ggplot themes, and write some function to automate plot creation for us.  
 [UFO_ESD_completion](https://github.com/sagesteppe/UFO_ESD_completion)  How much of each Ecological Site Description has been written? Which portions are present?
-[UFO_ESD_manual_classification](https://github.com/sagesteppe/UFO-ESD_manual_classification)   Tools to help in retroactively identifying which ESD an AIM plot was located in. Helpful in Major Land Resource Area's which did not have their ES complete, or mapped to SSURGO, at the start of the sample design.
-[UFO_noxious_weeds](https://github.com/sagesteppe/UFO_noxious_weeds)  
-[UFO_Plant_Diversity](https://github.com/sagesteppe/UFO_Plant_Diversity)    
-[UFO_Soil_Stability](https://github.com/sagesteppe/UFO_Soil_Stability)    
-[UFO_Weights_for_stratification](https://github.com/sagesteppe/UFO_weighted_analysis_Strat)  
-[UFO_Weighted_Analyses](https://github.com/sagesteppe/UFO_weighted_analyses)   
-[UFO_bareground](https://github.com/sagesteppe/UFO_bareground)  
+[UFO_ESD_manual_classification](https://github.com/sagesteppe/UFO-ESD_manual_classification) Tools to help in retroactively identifying which ESD an AIM plot was located in. Helpful in Major Land Resource Area's which did not have their ES complete, or mapped to SSURGO, at the start of the sample design.  
+[UFO_noxious_weeds](https://github.com/sagesteppe/UFO_noxious_weeds)  Indentifying common noxious weeds, impacted ecological sites, and trends in their distributions from AIM data
+[UFO_Plant_Diversity](https://github.com/sagesteppe/UFO_Plant_Diversity) These scripts serve as the heart of the interpretations of an AIM sample design. Their are four main scripts, each with a major focus which warrants a chapter (Functional Diversity, Species Diversity, Rare Species, Floristic Quality Index) in a report.  
+[UFO_Soil_Stability](https://github.com/sagesteppe/UFO_Soil_Stability)  Analysing soil surface pedon stability, and contextualizing information regarding canopy cover and biocrusts  
+[UFO_Weights_for_stratification](https://github.com/sagesteppe/UFO_weighted_analysis_Strat) The initial sample designs from the NOC may not include weights of plots broken down into special management areas. For examples, Wilderness areas, which have higher land health objectives than other BLM land. We recalculate the initial weights from these types of oversights in the initial design, and calculcate the weights of plots after sampling a panel has been completed.  
+[UFO_Weighted_Analyses](https://github.com/sagesteppe/UFO_weighted_analyses)  Calculate the weighted summaries of numerous ecological indicators for multiple strata using spSurvey and AIM TerraDat Summaries
+[UFO_bareground](https://github.com/sagesteppe/UFO_bareground)  compare the NOC values of bareground from a terradat summary to the benchmarks from the Reference Sheet of an ESD. 
 
 ## Hardware Specs:
 
