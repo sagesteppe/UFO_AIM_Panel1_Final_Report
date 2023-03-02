@@ -30,6 +30,8 @@ All analyses which occurred at a local scale were recorded using the version con
 
 It is worth noting, essentially, all computations were performed outside of the Windows environment. Whenever possible, only open-source software was utilized, so that any interested Citizen, or other, may emulate and build upon these analyses without a large barrier to entry associated with expensive software subscriptions. E.g. Microsoft and ESRI licenses. Unfortunately, it was required to use ESRI due to data sharing speeds in the internal BLM system. If you are a person external to the Bureau , I believe (but am not positive if this is correct, nor the mechanism to do so) you can request a copy of the AIM Geodatabase (~ TerraDat). You can much more readily import this into R using the 'sf' package, and reading and listing layers. I envy you.
 
+However, with that said, computational power may be a limit for some. Two different hardware environments will be referred to colloquially throughout these scipts. One computer referred to as 'lightscape' and another (seldom noted) as 'parkland'. Nearly all computations were performed on 'parkland', (hopefully) unless otherwise noted. The specs of Parkland and Lightscape are listed at the end of this page, and you should ensure you have appropriate compute power; in nearly all cases you should.
+
 Project Directory Structure:
 
 
@@ -37,3 +39,15 @@ Github Repositories:
 
 
 
+
+
+Parkland:
+
+12th Gen Intel(R) Core(TM) i7-12700H
+20 cores
+RAM - 32gb
+
+Lightscape:
+11th gen Intel(R) Core(TM) i7---
+16 cores
+RAM - 128gb
