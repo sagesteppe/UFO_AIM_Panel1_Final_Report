@@ -39,7 +39,8 @@ Github Repositories:
 
 
 
-
+===================
+Hardware Specs:
 
 Parkland:  
 12th Gen Intel(R) Core(TM) i7-12700H  
