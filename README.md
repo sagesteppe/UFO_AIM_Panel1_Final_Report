@@ -1,4 +1,7 @@
 # Uncompahgre Field Office Terrestrial Assess, Inventory and Monitor Final Report
+
+A framework for the assembly of many chapters of work into a BLM style report.
+
 This repository contains the code to assemble all Chapters of the AIM project into a final document. It also contains a loose guide to the R scripts and data we used for ths project.
 
 ## Layout of the final report:
@@ -107,15 +110,20 @@ each of the above folders, *mostly* follow the same substructure, here is the ex
 
 ## Github Repositories:
 
-[Get_Gridmet](https://github.com/sagesteppe/getGridmet)  
-[plot_post_stratification](https://github.com/sagesteppe/UFO_vegetation_classification)   
-[UFO_AIM_Compliance](https://github.com/sagesteppe/UFO_AIM_Compliance)  
-[UFO_AIM_Panel1_Final_Report](https://github.com/sagesteppe/UFO_AIM_Panel1_Final_Report)   
-[UFO_cover_estimates_ESD_ESG](https://github.com/sagesteppe/UFO_cover_estimates_ESD_ESG)  
-[UFO_drought](https://github.com/sagesteppe/UFO_drought)     
-[UFO_elements_of_style](https://github.com/sagesteppe/UFO_elements_of_style)   
-[UFO_ESD_completion](https://github.com/sagesteppe/UFO_ESD_completion)  
-[UFO_ESD_manual_classification](https://github.com/sagesteppe/UFO-ESD_manual_classification)     
+[Get_Gridmet](https://github.com/sagesteppe/getGridmet)  automate downloading data products from the Gridmet website. Used for Drought analyses.
+
+[plot_post_stratification](https://github.com/sagesteppe/UFO_vegetation_classification) a framework for the generation of useful major vegetation strata at the scale of a single BLM field office.  
+
+[UFO_AIM_Compliance](https://github.com/sagesteppe/UFO_AIM_Compliance)  Interim reporting throughout the life of the sample design, and analysis of nearly all indicators without plot weights.  
+
+[UFO_AIM_Panel1_Final_Report](https://github.com/sagesteppe/UFO_AIM_Panel1_Final_Report)  A framework for the assembly of many chapters of work into a BLM style report.
+
+[UFO_cover_estimates_ESD_ESG](https://github.com/sagesteppe/UFO_cover_estimates_ESD_ESG)  Compare the reference benchmark conditions for Ecological Sites, with 'Ecological Site Group' derived mean values.
+
+[UFO_drought](https://github.com/sagesteppe/UFO_drought)     Calculate the Standardized Precipitation Evapotranspiration Index (SPEI) at the scale of a BLM Office scale. 
+[UFO_elements_of_style](https://github.com/sagesteppe/UFO-elements-of-style)   Design elements for a consistent 5 year AIM report. We define palettes, ggplot themes, and write some function to automate plot creation for us.
+[UFO_ESD_completion](https://github.com/sagesteppe/UFO_ESD_completion)  How much of each Ecological Site Description has been written? Which portions are present?
+[UFO_ESD_manual_classification](https://github.com/sagesteppe/UFO-ESD_manual_classification)   Tools to help in retroactively identifying which ESD an AIM plot was located in. Helpful in Major Land Resource Area's which did not have their ES complete, or mapped to SSURGO, at the start of the sample design.
 [UFO_noxious_weeds](https://github.com/sagesteppe/UFO_noxious_weeds)  
 [UFO_Plant_Diversity](https://github.com/sagesteppe/UFO_Plant_Diversity)    
 [UFO_Soil_Stability](https://github.com/sagesteppe/UFO_Soil_Stability)    
