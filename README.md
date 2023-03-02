@@ -6,16 +6,16 @@ This repository contains the code to assemble all Chapters of the AIM project in
 
 ## Layout of the final report:
 
-1) Cover page
-2) Report Identifier Information
-3) Table of Contents
-4) Introduction; Written Sections
-   Introduction; Analyses
-5) Sample Design, Stratification, and Plots Weights
-6) Ecological Side Descriptions Completion Assessment
-7) Ecological Site Description and Ecological Site Groups Comparision - Vegetation 'Benchmarks'
-8) An Assessment of Drought Conditions
-<br>
+1) Cover page  
+2) Report Identifier Information  
+3) Table of Contents  
+4) Introduction; Written Sections  
+   Introduction; Analyses  
+5) Sample Design, Stratification, and Plots Weights  
+6) Ecological Side Descriptions Completion Assessment  
+7) Ecological Site Description and Ecological Site Groups Comparision - Vegetation 'Benchmarks'  
+8) An Assessment of Drought Conditions  
+<br>  
 9) An overview of the Analytical Sections  
 10) Bareground  
 11) Soil Stability  
