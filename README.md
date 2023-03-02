@@ -107,22 +107,21 @@ each of the above folders, *mostly* follow the same substructure, here is the ex
 
 ## Github Repositories:
 
-(Get_Gridmet)[https://github.com/sagesteppe/getGridmet]  
-(GraphModulesEsds)[]  
-(plot_post_stratification)[https://github.com/sagesteppe/UFO_vegetation_classification]  
-(UFO_AIM_Compliance)[https://github.com/sagesteppe/UFO_AIM_Compliance]  
-(UFO_AIM_Panel1_Final_Report)[https://github.com/sagesteppe/UFO_AIM_Panel1_Final_Report]  
-(UFO_cover_estimates_ESD_ESG)[https://github.com/sagesteppe/UFO_cover_estimates_ESD_ESG]  
-(UFO_drought)[https://github.com/sagesteppe/UFO_drought]   
-(UFO_elements_of_style)[https://github.com/sagesteppe/UFO_elements_of_style]   
-(UFO_ESD_completion)[https://github.com/sagesteppe/UFO_ESD_completion]  
-(UFO_ESD_manual_classification)[https://github.com/sagesteppe/UFO-ESD_manual_classification]   
-(UFO_noxious_weeds)[https://github.com/sagesteppe/UFO_noxious_weeds]  
-(UFO_Plant_Diversity)[https://github.com/sagesteppe/UFO_Plant_Diversity]    
-(UFO_Soil_Stability)[https://github.com/sagesteppe/UFO_Soil_Stability]    
-(UFO_Weights_for_stratification)[https://github.com/sagesteppe/UFO_weighted_analysis_Strat]  
-(UFO_Weighted_Analyses)[https://github.com/sagesteppe/UFO_weighted_analyses]   
-(UFO_bareground)[https://github.com/sagesteppe/UFO_bareground]  
+[Get_Gridmet](https://github.com/sagesteppe/getGridmet)  
+[plot_post_stratification](https://github.com/sagesteppe/UFO_vegetation_classification)   
+[UFO_AIM_Compliance](https://github.com/sagesteppe/UFO_AIM_Compliance)  
+[UFO_AIM_Panel1_Final_Report](https://github.com/sagesteppe/UFO_AIM_Panel1_Final_Report)   
+[UFO_cover_estimates_ESD_ESG](https://github.com/sagesteppe/UFO_cover_estimates_ESD_ESG)  
+[UFO_drought](https://github.com/sagesteppe/UFO_drought)     
+[UFO_elements_of_style](https://github.com/sagesteppe/UFO_elements_of_style)   
+[UFO_ESD_completion](https://github.com/sagesteppe/UFO_ESD_completion)  
+[UFO_ESD_manual_classification](https://github.com/sagesteppe/UFO-ESD_manual_classification)     
+[UFO_noxious_weeds](https://github.com/sagesteppe/UFO_noxious_weeds)  
+[UFO_Plant_Diversity](https://github.com/sagesteppe/UFO_Plant_Diversity)    
+[UFO_Soil_Stability](https://github.com/sagesteppe/UFO_Soil_Stability)    
+[UFO_Weights_for_stratification](https://github.com/sagesteppe/UFO_weighted_analysis_Strat)  
+[UFO_Weighted_Analyses](https://github.com/sagesteppe/UFO_weighted_analyses)   
+[UFO_bareground](https://github.com/sagesteppe/UFO_bareground)  
 
 ## Hardware Specs:
 
