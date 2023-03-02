@@ -41,13 +41,12 @@ Github Repositories:
 
 
 
-Parkland:
-
-12th Gen Intel(R) Core(TM) i7-12700H
-20 cores
+Parkland:  
+12th Gen Intel(R) Core(TM) i7-12700H  
+20 cores  
 RAM - 32gb
 
-Lightscape:
-11th gen Intel(R) Core(TM) i7---
-16 cores
-RAM - 128gb
+Lightscape:  
+11th gen Intel(R) Core(TM) i7---  
+16 cores  
+RAM - 128gb  
