@@ -1,0 +1,31 @@
+---
+title: "Table of Contents"
+output:
+  pdf_document: default
+header-includes:
+- \usepackage[width=\textwidth]{caption}
+- \usepackage{enumitem}
+- \usepackage{wrapfig}
+- \usepackage{amsthm,amsmath}
+---
+
+\vspace{-1cm}
+
+\begin{enumerate}
+    \item Introduction; Written \dotfill 1 point
+    \item Introduction; Analyses \dotfill 2 points
+    \item Sample Design, Stratification, and Plots Weights \dotfill 1 point
+    \item Ecological Side Descriptions Completion Assessment \dotfill 2 points
+    \item Ecological Site Description and Ecological Site Groups Comparision - Vegetation 'Benchmarks' \dotfill filler
+    \item An Assessment of Drought Conditions \dotfill 4 points
+    \item An overview of the Analytical Sections \dotfill 5 points
+    \item Bareground \dotfill 6 point
+    \item Soil Stability \dotfill 7 point
+    \item Noxious Species \dotfill beez
+    \item Plant Functional Diversity - Cover \dotfill
+    \item Plant Functional Diveristy - Species \dotfill
+    \item Rare Species \dotfill
+    \item Floristic Quality Index \dotfill
+    \item Glossary \dotfill
+    \item Acknowledgements \dotfill
+\end{enumerate} 
