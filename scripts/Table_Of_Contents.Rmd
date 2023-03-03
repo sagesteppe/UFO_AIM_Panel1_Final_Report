@@ -7,6 +7,8 @@ header-includes:
 - \usepackage{enumitem}
 - \usepackage{wrapfig}
 - \usepackage{amsthm,amsmath}
+- \usepackage{setspace}
+- \usepackage{lipsum}
 ---
 
 \vspace{-1cm}
@@ -41,6 +43,8 @@ header-includes:
 {\section{List of Figures}} 
 \end{center}
 
+
+\begin{onehalfspacing}
 \begin{enumerate}
     \item \textbf{Figure 1.1} All AIM plots sampled in the field office  \dotfill xx
     \item \textbf{Figure 1.2} AIM plots sampled near Dominguez-Escalente NCA \dotfill xx
@@ -56,6 +60,11 @@ header-includes:
     \item \textbf{Figure 4.4} Relationship between ESDs and ESGs at end of classification process \dotfill xx
     \item \textbf{Figure 4.5} Mean Benchmarks ESD and ESG \dotfill xx
     \item \textbf{Figure 4.6} Distribution of Percent Covers \dotfill xx
+    \item \textbf{Figure 5.1} Stylized topographic map of the area of analysis \dotfill xx
+    \item \textbf{Figure 5.2} SPEI of the Uncompahgre Field Office Area \dotfill xx
+    \item \textbf{Figure 5.3} Drought Status of the Uncompahgre Field Office Area \dotfill xx
+
+    Stylized topographic map of the area of analysis
 \end{enumerate} 
 
 Note, digits refer to the section which the figure is located in, and the decimal to the figures number within that section. 
@@ -75,7 +84,9 @@ Note, digits refer to the section which the figure is located in, and the decima
     \item \textbf{Table 1.7} Realized Weighted Sample Design for the Entire Sample Frame \dotfill xx
     \item \textbf{Table 1.8} Original Sample Design for Gunnison Gorge National Monument \dotfill xx
     \item \textbf{Table 3.1} Variation of Benchmarks \dotfill xx
-    \item \textbf{Table}  \dotfill xx
+    \item \textbf{Table 5.1} Variables to calculate Potential Evaporation via the Penman-Montieth equation \dotfill xx
+    \item \textbf{Table 5.2} SPI Values Interpretation  \dotfill xx
+    
 \end{enumerate} 
 
 \newpage
@@ -83,23 +94,27 @@ Note, digits refer to the section which the figure is located in, and the decima
 {\section{List of Acronyms}} 
 \end{center}
 
-**ACEC**
-**AIM** Terrestrial Assess, Inventory, and Monitor   
-**BLM** Bureau of Land Management    
-**DEM** Digital Elevation Model  
-**ES**  Ecological Site  
-**ESD** Ecological Site Description    
-**ESG** Ecological Site Group   
-**MLRA** Major Land Resource Area   
-**NCA**
-**NOC** National Operations Center   
-**NGO** Non-Governmental Organization   
-**NPS** National Park Service    
-**NRCS** National Resource Conservation Service   
-**RMP** Resource Management Plan   
-**USFS** United States Forest Service        
-**USGS** United States Geological Survey     
-**WSA**
+\begin{doublespacing}
+
+\textbf{ACEC} Area of Critical Environmental Concern   \\  
+\textbf{AIM} Terrestrial Assess, Inventory, and Monitor  \\   
+\textbf{BLM} Bureau of Land Management   \\
+\textbf{DEM} Digital Elevation Model  \\
+\textbf{ES}  Ecological Site  \\
+\textbf{ESD} Ecological Site Description  \\
+\textbf{ESG} Ecological Site Group   \\
+\textbf{MLRA} Major Land Resource Area   \\
+\textbf{NCA}  National Conservation Area   \\
+\textbf{NOC}  National Operations Center   \\
+\textbf{NGO}  Non-Governmental Organization  \\ 
+\textbf{NPS} National Park Service    \\
+\textbf{NRCS} National Resource Conservation Service \\   
+\textbf{RMP}  Resource Management Plan   \\
+\textbf{USFS} United States Forest Service  \\       
+\textbf{USGS}  United States Geological Survey \\     
+\textbf{WSA} Wilderness Study Area  \\
+
+\end{doublespacing}
 
 \newpage
 \begin{center}
