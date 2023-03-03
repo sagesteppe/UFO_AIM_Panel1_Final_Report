@@ -12,20 +12,84 @@ header-includes:
 \vspace{-1cm}
 
 \begin{enumerate}
-    \item Introduction; Written \dotfill 1 point
-    \item Introduction; Analyses \dotfill 2 points
-    \item Sample Design, Stratification, and Plots Weights \dotfill 1 point
-    \item Ecological Side Descriptions Completion Assessment \dotfill 2 points
-    \item Ecological Site Description and Ecological Site Groups Comparision - Vegetation 'Benchmarks' \dotfill filler
+    \item List of Figures \dotfill 2
+    \item List of Tables \dotfill 3
+    \item List of Acronyms \dotfill 4
+    \item Abstract \dotfill 5
+    \item Introduction \dotfill 6
+    \item Sample Design, Stratification, and Plots Weights \dotfill 3
+    \item Ecological Side Descriptions Completion Assessment \dotfill pizza
+    \item Ecological Site Description and Ecological Site Group Comparison - Vegetation 'Benchmarks' \dotfill filler
     \item An Assessment of Drought Conditions \dotfill 4 points
     \item An overview of the Analytical Sections \dotfill 5 points
     \item Bareground \dotfill 6 point
     \item Soil Stability \dotfill 7 point
     \item Noxious Species \dotfill beez
-    \item Plant Functional Diversity - Cover \dotfill
-    \item Plant Functional Diveristy - Species \dotfill
-    \item Rare Species \dotfill
-    \item Floristic Quality Index \dotfill
-    \item Glossary \dotfill
-    \item Acknowledgements \dotfill
+    \item Plant Functional Diversity - Cover \dotfill hamburger
+    \item Plant Functional Diversity - Species \dotfill granola
+    \item Rare Species \dotfill peach
+    \item Floristic Quality Index \dotfill pear
+    \item Glossary \dotfill apple
+    \item Acknowledgements \dotfill fries
 \end{enumerate} 
+
+
+\newpage
+\begin{center}
+{\section{List of Figures}} 
+\end{center}
+
+\begin{enumerate}
+    \item Figure  \dotfill xx
+    \item Figure  \dotfill xx
+\end{enumerate} 
+
+\newpage
+\begin{center}
+{\section{List of Tables}} 
+\end{center}
+
+\begin{enumerate}
+    \item Table  \dotfill xx
+    \item Table  \dotfill xx
+\end{enumerate} 
+
+\newpage
+\begin{center}
+{\section{List of Acronyms}} 
+\end{center}
+
+**AIM** Terrestrial Assess, Inventory, and Monitor   
+**BLM** Bureau of Land Management    
+**DEM** Digital Elevation Model  
+**ES** Ecological Site  
+**ESD** Ecological Site Description    
+**ESG** Ecological Site Group   
+**MLRA** Major Land Resource Area   
+**NOC** National Operations Center   
+**NGO** Non-Governmental Organization   
+**NPS** National Park Service    
+**NRCS** National Resource Conservation Service   
+**RMP** Resource Management Plan   
+**USFS** United States Forest Service        
+**USGS** United States Geological Survey       
+
+\newpage
+\begin{center}
+{\section{Abstract}} 
+\end{center}
+
+The Uncompahgre Field office completed the first Terrestrial Assess, Inventory, and Monitor panel which it initiated in summer of 2022. This report summarizes the status and conditions of several key indicators from the AIM data set, in comparison to the reference conditions contained in Ecological Site Descriptions, or when required Ecological Site Groups. All comparisons are made using spatially explicit inferential statistics which allow for the interpretation of the percent of the field office falling into different categories which are meeting management conditions as specified in the Resource Management Plan (RMP).
+
+Virtually all work was conducted in the statistical Programming language R, with occasional use of 'bash' and python. Most project 'styling' and report elements were designed using Latex in an Rmarkdown/Rstudio environment. All work was tracked using the version control software 'git' and is stored on a website known as Github, which contains logs of all major incremental changes in the sections. We hope that these steps make it easy for others to replicate our work, and in short order build upon, and then readily surpass it.
+
+\newpage
+\begin{center}
+{\section{Introduction}}
+\end{center}
+
+This document can be considered in two parts. The first four sections, i.e. the sections up to *'An Assessment of Drought Conditions'* are materials which do not *directly* relate to the analyses in the remaining portion of the document. Rather they reflect import processes in establishing the framework which we used to compare plots, and interpret results. The first section, *'Sample Design, Stratification, and Plots Weights'*, relates to an initial oversight regarding the sample design which made us very slightly re-assign the weights of plots associated with the three different areas of the field office which have different management objectives under the Resource Management Plan. The section *Ecological Side Descriptions Completion Assessment* was essential to evaluate the progress made, and remaining to be made, regarding the establishment of Ecological Sites, and their documentation via the formal Ecological Site Description process. While we intended to use benchmarks directly from Ecological Site Descriptions, the Natural Resource Conservation Service still has many to complete in our area, largely focused in a Major Land Resource Area which contains most of our higher elevation lands. In order to utilize benchmarks across the entirety of the field office, we turned to Ecological Site Groups, a framework recently developed by the United State Geological Survey for the Colorado Plateau. We had to undertake multiple steps to ensure that the NRCS and USGS approaches would be congruent for the report which are detailed in *'Ecological Site Description and Ecological Site Group Comparison - Vegetation 'Benchmarks'*. The final section *'An Assessment of Drought Conditions'* relates to an aspect of the AIM sample design regarding time series data. Some other AIM analysts have made note of using time as a predictor of variation in responses within a single 5-year panel, which allows them to weight plots sampled in years with normal of above normal precipitation more than plots in drier years. However, we believed that the drought conditions over the sample period were too great to consider years in isolation, and pooled these data. These sections all served to inform how we carried out the analysis of the AIM indicators in the remaining work.
+
+The second part, the next several sections, up to *'Plant Functional Diversity - Species'*, form the main body of work, and deal with a number of the Assess, Inventory, and Monitor, Indicators, for which we had enough data to investigate in a meaningful manner. These sections proceed in fashion of increasing ecological and biological complexity, but are written to *largely* be independent of each other; i.e. modular. Notably, the earlier sections refer to more detailed phenomena which are described in the introductions to the later sections. The first section *'Bareground'* documents how much soil across the field office is exposed to wind and precipitation. *'Soil Stability'* contextualizes how these soils, based on their aggregate stability, have different potential to soil erosion, and the effects of this process on the field office and adjacent areas. *'Noxious Species'* investigates the distribution of weeds across the field office, the taxonomic identities of them, and identifies areas with considerable presence of invasive species. We next turn to investigating the cover of each of the major plant functional types in comparison to reference conditions in *Plant Functional Diversity - Cover*, and believe this to be the most integral portion of the document. We then identify the number of species in the major, and some finer resolution, functional groups in '*Plant Functional Diversity - Species*'. 
+
+The remaining sections, *'Rare Species'* and *'Floristic Quality Index'*, show opportunistic applications of the AIM data set outside of the realm of Ecological Sites. In *'Rare Species'* we identify the species of conservation concern, across a variety of agencies and Non-Governmental Organizations, as well as species rare under two other non-conservation related metrics. Finally we compute the *'Floristic Quality Index'* and model it across the field office using Species Richness data, this metric is commonyl used in Midwestern and Eastern states, and we believed it's results were largely congruent to the efforts from the combined AIM indicators. 

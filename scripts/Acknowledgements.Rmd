@@ -1,0 +1,10 @@
+---
+title: "Acknowledgements"
+output:
+  pdf_document: default
+header-includes:
+- \usepackage[width=\textwidth]{caption}
+- \usepackage{enumitem}
+---
+
+Many persons are thanked for their assistance over the five year field duration of this project. At Southwest Conservation Corps, whom all hiring was through, we thank Cassandra Owens, Talavi Cook, Rylee Hostrawser... At the UFO field office Jed Songergaard, Dave Sinton, Thane ..., Angela ... , Scott ... At the National Operations Center, Nathan Reddicker, Kyle , Walker Morton... Technicians and crew leads whom gathered these data are most warmly acknowledged: Brandi Wheeler, Taylor Prentice, Phoebe Roberts, Hannah Lovell, Megan Bach, Naomi Oberg  ... 
