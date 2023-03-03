@@ -12,25 +12,27 @@ header-includes:
 \vspace{-1cm}
 
 \begin{enumerate}
+    \item Table of Contents \dotfill 1
     \item List of Figures \dotfill 2
     \item List of Tables \dotfill 3
     \item List of Acronyms \dotfill 4
     \item Abstract \dotfill 5
     \item Introduction \dotfill 6
-    \item Sample Design, Stratification, and Plots Weights \dotfill 3
-    \item Ecological Side Descriptions Completion Assessment \dotfill pizza
-    \item Ecological Site Description and Ecological Site Group Comparison - Vegetation 'Benchmarks' \dotfill filler
-    \item An Assessment of Drought Conditions \dotfill 4 points
-    \item An overview of the Analytical Sections \dotfill 5 points
-    \item Bareground \dotfill 6 point
-    \item Soil Stability \dotfill 7 point
-    \item Noxious Species \dotfill beez
-    \item Plant Functional Diversity - Cover \dotfill hamburger
-    \item Plant Functional Diversity - Species \dotfill granola
-    \item Rare Species \dotfill peach
-    \item Floristic Quality Index \dotfill pear
-    \item Glossary \dotfill apple
-    \item Acknowledgements \dotfill fries
+    \item 1) Sample Design, Stratification, and Plots Weights \dotfill 3
+    \item 2) Ecological Side Descriptions Completion Assessment \dotfill pizza
+    \item 3) Increase Range around Narrow Ecological Site Benchmarks \dotfill wings
+    \item 4) Ecological Site Description and Ecological Site Group Comparison - Vegetation 'Benchmarks' \dotfill filler
+    \item 5) An Assessment of Drought Conditions \dotfill 4 points
+    \item 6) An overview of the Analytical Sections \dotfill 5 points
+    \item 7) Bareground \dotfill 6 point
+    \item 8) Soil Stability \dotfill 7 point
+    \item 9) Noxious Species \dotfill beez
+    \item 10) Plant Functional Diversity - Cover \dotfill hamburger
+    \item 11) Plant Functional Diversity - Species \dotfill granola
+    \item 12) Rare Species \dotfill peach
+    \item 13) Floristic Quality Index \dotfill pear
+    \item 14) Glossary \dotfill apple
+    \item 15) Acknowledgements \dotfill fries
 \end{enumerate} 
 
 
@@ -40,9 +42,23 @@ header-includes:
 \end{center}
 
 \begin{enumerate}
-    \item Figure  \dotfill xx
-    \item Figure  \dotfill xx
+    \item \textbf{Figure 1.1} All AIM plots sampled in the field office  \dotfill xx
+    \item \textbf{Figure 1.2} AIM plots sampled near Dominguez-Escalente NCA \dotfill xx
+    \item \textbf{Figure 1.3} AIM plots sampled near Gunnison-Gorge NCA \dotfill xx
+    \item \textbf{Figure 1.4} Summary of Plot Sampling Effort and Plot Fates \dotfill xx
+    \item \textbf{Figure 2.1} Number of AIM plots per Ecological Site \dotfill xx
+    \item \textbf{Figure 2.2} Number of plots which have Quantitative Benchmarks \dotfill xx
+    \item \textbf{Figure 3.1} Imputed Ranges Around Mean Values \dotfill xx
+    \item \textbf{Figure 3.2} Estimates of Ranges of Quantitative Benchmarks \dotfill xx
+    \item \textbf{Figure 4.1} Proportion of Plots mapped to their Ecological Site Groups \dotfill xx
+    \item \textbf{Figure 4.2} Initial Relationship Between Field Verified ESD and ESG extracted from the gridded surface \dotfill xx
+    \item \textbf{Figure 4.3} Relationships Between ESDs and ESGs midway through the cleaning process \dotfill xx
+    \item \textbf{Figure 4.4} Relationship between ESDs and ESGs at end of classification process \dotfill xx
+    \item \textbf{Figure 4.5} Mean Benchmarks ESD and ESG \dotfill xx
+    \item \textbf{Figure 4.6} Distribution of Percent Covers \dotfill xx
 \end{enumerate} 
+
+Note, digits refer to the section which the figure is located in, and the decimal to the figures number within that section. 
 
 \newpage
 \begin{center}
@@ -50,8 +66,16 @@ header-includes:
 \end{center}
 
 \begin{enumerate}
-    \item Table  \dotfill xx
-    \item Table  \dotfill xx
+    \item \textbf{Table 1.1} Original Sample Design for the Entire Sample Frame \dotfill xx
+    \item \textbf{Table 1.2} Realized Weighted Sample Design for the Entire Sample Frame  \dotfill xx
+    \item \textbf{Table 1.3} Original Sample Design for Areas of Critical Environmental Concern and Wilderness Study Areas \dotfill xx
+    \item \textbf{Table 1.4} Number of Plots Drawn per ACEC  \dotfill xx
+    \item \textbf{Table 1.5} Realized Weighted Sample Design for the Entire Sample Frame  \dotfill xx
+    \item \textbf{Table 1.6} Original Sample Design for Dominguez-Escalante National Monument \dotfill xx
+    \item \textbf{Table 1.7} Realized Weighted Sample Design for the Entire Sample Frame \dotfill xx
+    \item \textbf{Table 1.8} Original Sample Design for Gunnison Gorge National Monument \dotfill xx
+    \item \textbf{Table 3.1} Variation of Benchmarks \dotfill xx
+    \item \textbf{Table}  \dotfill xx
 \end{enumerate} 
 
 \newpage
@@ -59,20 +83,23 @@ header-includes:
 {\section{List of Acronyms}} 
 \end{center}
 
+**ACEC**
 **AIM** Terrestrial Assess, Inventory, and Monitor   
 **BLM** Bureau of Land Management    
 **DEM** Digital Elevation Model  
-**ES** Ecological Site  
+**ES**  Ecological Site  
 **ESD** Ecological Site Description    
 **ESG** Ecological Site Group   
 **MLRA** Major Land Resource Area   
+**NCA**
 **NOC** National Operations Center   
 **NGO** Non-Governmental Organization   
 **NPS** National Park Service    
 **NRCS** National Resource Conservation Service   
 **RMP** Resource Management Plan   
 **USFS** United States Forest Service        
-**USGS** United States Geological Survey       
+**USGS** United States Geological Survey     
+**WSA**
 
 \newpage
 \begin{center}
@@ -88,7 +115,7 @@ Virtually all work was conducted in the statistical Programming language R, with
 {\section{Introduction}}
 \end{center}
 
-This document can be considered in two parts. The first four sections, i.e. the sections up to *'An Assessment of Drought Conditions'* are materials which do not *directly* relate to the analyses in the remaining portion of the document. Rather they reflect import processes in establishing the framework which we used to compare plots, and interpret results. The first section, *'Sample Design, Stratification, and Plots Weights'*, relates to an initial oversight regarding the sample design which made us very slightly re-assign the weights of plots associated with the three different areas of the field office which have different management objectives under the Resource Management Plan. The section *Ecological Side Descriptions Completion Assessment* was essential to evaluate the progress made, and remaining to be made, regarding the establishment of Ecological Sites, and their documentation via the formal Ecological Site Description process. While we intended to use benchmarks directly from Ecological Site Descriptions, the Natural Resource Conservation Service still has many to complete in our area, largely focused in a Major Land Resource Area which contains most of our higher elevation lands. In order to utilize benchmarks across the entirety of the field office, we turned to Ecological Site Groups, a framework recently developed by the United State Geological Survey for the Colorado Plateau. We had to undertake multiple steps to ensure that the NRCS and USGS approaches would be congruent for the report which are detailed in *'Ecological Site Description and Ecological Site Group Comparison - Vegetation 'Benchmarks'*. The final section *'An Assessment of Drought Conditions'* relates to an aspect of the AIM sample design regarding time series data. Some other AIM analysts have made note of using time as a predictor of variation in responses within a single 5-year panel, which allows them to weight plots sampled in years with normal of above normal precipitation more than plots in drier years. However, we believed that the drought conditions over the sample period were too great to consider years in isolation, and pooled these data. These sections all served to inform how we carried out the analysis of the AIM indicators in the remaining work.
+This document can be considered in two parts. The first four sections, i.e. the sections up to *'An Assessment of Drought Conditions'* are materials which do not *directly* relate to the analyses in the remaining portion of the document. Rather they reflect import processes in establishing the framework which we used to compare plots, and interpret results. The first section, *'Sample Design, Stratification, and Plots Weights'*, relates to an initial oversight regarding the sample design which made us very slightly re-assign the weights of plots associated with the three different areas of the field office which have different management objectives under the Resource Management Plan. The section *'Ecological Side Descriptions Completion Assessment'* was essential to evaluate the progress made, and remaining to be made, regarding the establishment of Ecological Sites, and their documentation via the formal Ecological Site Description process. Many of the plots had benchmarks which were very narrow, and did not reflect either uncertainty associated with sampling errors, or natural variation, we slightly adjusted the range of these benchmarks in *'Increase Range around Narrow Ecological Site Benchmarks'*. While we intended to use benchmarks directly from Ecological Site Descriptions, the Natural Resource Conservation Service still has many to complete in our area, largely focused in a Major Land Resource Area which contains most of our higher elevation lands. In order to utilize benchmarks across the entirety of the field office, we turned to Ecological Site Groups, a framework recently developed by the United State Geological Survey for the Colorado Plateau. We had to undertake multiple steps to ensure that the NRCS and USGS approaches would be congruent for the report which are detailed in *'Ecological Site Description and Ecological Site Group Comparison - Vegetation 'Benchmarks'*. The final section *'An Assessment of Drought Conditions'* relates to an aspect of the AIM sample design regarding time series data. Some other AIM analysts have made note of using time as a predictor of variation in responses within a single 5-year panel, which allows them to weight plots sampled in years with normal of above normal precipitation more than plots in drier years. However, we believed that the drought conditions over the sample period were too great to consider years in isolation, and pooled these data. These sections all served to inform how we carried out the analysis of the AIM indicators in the remaining work.
 
 The second part, the next several sections, up to *'Plant Functional Diversity - Species'*, form the main body of work, and deal with a number of the Assess, Inventory, and Monitor, Indicators, for which we had enough data to investigate in a meaningful manner. These sections proceed in fashion of increasing ecological and biological complexity, but are written to *largely* be independent of each other; i.e. modular. Notably, the earlier sections refer to more detailed phenomena which are described in the introductions to the later sections. The first section *'Bareground'* documents how much soil across the field office is exposed to wind and precipitation. *'Soil Stability'* contextualizes how these soils, based on their aggregate stability, have different potential to soil erosion, and the effects of this process on the field office and adjacent areas. *'Noxious Species'* investigates the distribution of weeds across the field office, the taxonomic identities of them, and identifies areas with considerable presence of invasive species. We next turn to investigating the cover of each of the major plant functional types in comparison to reference conditions in *Plant Functional Diversity - Cover*, and believe this to be the most integral portion of the document. We then identify the number of species in the major, and some finer resolution, functional groups in '*Plant Functional Diversity - Species*'. 
 
