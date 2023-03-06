@@ -21,20 +21,20 @@ header-includes:
     \item Abstract \dotfill 5
     \item Introduction \dotfill 6
     \item 1) Sample Design, Stratification, and Plots Weights \dotfill 3
-    \item 2) Ecological Side Descriptions Completion Assessment \dotfill pizza
-    \item 3) Increase Range around Narrow Ecological Site Benchmarks \dotfill wings
-    \item 4) Ecological Site Description and Ecological Site Group Comparison - Vegetation 'Benchmarks' \dotfill filler
-    \item 5) An Assessment of Drought Conditions \dotfill 4 points
-    \item 6) An overview of the Analytical Sections \dotfill 5 points
-    \item 7) Bareground \dotfill 6 point
-    \item 8) Soil Stability \dotfill 7 point
-    \item 9) Noxious Species \dotfill beez
-    \item 10) Plant Functional Diversity - Cover \dotfill hamburger
-    \item 11) Plant Functional Diversity - Species \dotfill granola
-    \item 12) Rare Species \dotfill peach
-    \item 13) Floristic Quality Index \dotfill pear
-    \item 14) Glossary \dotfill apple
-    \item 15) Acknowledgements \dotfill fries
+    \item 2) Ecological Side Descriptions Completion Assessment \dotfill pp
+    \item 3) Increase Range around Narrow Ecological Site Benchmarks \dotfill pp
+    \item 4) Ecological Site Description and Ecological Site Group Comparison - Vegetation 'Benchmarks' \dotfill pp
+    \item 5) An Assessment of Drought Conditions \dotfill 4 pp
+    \item 6) An overview of the Analytical Sections \dotfill 5 pp
+    \item 7) Bare ground \dotfill 6 pp
+    \item 8) Soil Stability \dotfill 7 pp
+    \item 9) Noxious Species \dotfill pp
+    \item 10) Plant Functional Diversity - Cover \dotfill pp
+    \item 11) Plant Functional Diversity - Species \dotfill pp
+    \item 12) Rare Species \dotfill pp
+    \item 13) Floristic Quality Index \dotfill pp
+    \item 14) Glossary \dotfill pp
+    \item 15) Acknowledgements \dotfill pp
 \end{enumerate} 
 
 
@@ -43,8 +43,6 @@ header-includes:
 {\section{List of Figures}} 
 \end{center}
 
-
-\begin{onehalfspacing}
 \begin{enumerate}
     \item \textbf{Figure 1.1} All AIM plots sampled in the field office  \dotfill xx
     \item \textbf{Figure 1.2} AIM plots sampled near Dominguez-Escalente NCA \dotfill xx
@@ -63,7 +61,27 @@ header-includes:
     \item \textbf{Figure 5.1} Stylized topographic map of the area of analysis \dotfill xx
     \item \textbf{Figure 5.2} SPEI of the Uncompahgre Field Office Area \dotfill xx
     \item \textbf{Figure 5.3} Drought Status of the Uncompahgre Field Office Area \dotfill xx
-
+    \item \textbf{Figure 7.1} Predicting Bare ground from Foliar Cover \dotfill xx
+    \item \textbf{Figure 7.2} ESD and ESG derived Benchmarks [bare ground] \dotfill xx
+    \item \textbf{Figure 7.3} Bare ground \dotfill xx
+    \item \textbf{Figure 7.4} Land Meeting Benchmarks (Bare Ground) \dotfill xx
+    \item \textbf{Figure 8.1} \dotfill xx
+    \item \textbf{Figure 8.1} Estimates of Median Soil Stability \dotfill xx
+    \item \textbf{Figure 8.2} Land Meeting Benchmarks (Soil Stability) \dotfill xx
+    \item \textbf{Figure 9.1} Composite "Invasive Index" \dotfill xx
+    \item \textbf{Figure 9.2} Invasive Species Index \dotfill xx
+    \item \textbf{Figure 9.3} Invasive Species in the NE Field Office \dotfill xx
+    \item \textbf{Figure 9.4} Land Meeting Benchmarks (Invasive Species) \dotfill xx
+    \item \textbf{Figure 10.1} Validation of Calculations \dotfill xx
+    \item \textbf{Figure 10.2} Forb Cover [Benchmarks] \dotfill xx
+    \item \textbf{Figure 10.3} Shrub Cover [Benchmarks] \dotfill xx
+    \item \textbf{Figure 10.4} Tree Cover [Benchmarks] \dotfill xx
+    \item \textbf{Figure 10.5} Grass Cover [Benchmarks] \dotfill xx  
+    \item \textbf{Figure 10.6} Proportion of Plots Meeting Benchmark \dotfill xx  
+    \item \textbf{Figure 10.7} Total area of each stratum and the overall status of benchmarks \dotfill xx
+    \item \textbf{Figure 11.1} Number of Species per Functional Group across ESD \dotfill xx  
+    \item \textbf{Figure 11.2} Number of Species Observed per Coarse Functional Group \dotfill xx  
+    
     Stylized topographic map of the area of analysis
 \end{enumerate} 
 
@@ -75,17 +93,18 @@ Note, digits refer to the section which the figure is located in, and the decima
 \end{center}
 
 \begin{enumerate}
-    \item \textbf{Table 1.1} Original Sample Design for the Entire Sample Frame \dotfill xx
-    \item \textbf{Table 1.2} Realized Weighted Sample Design for the Entire Sample Frame  \dotfill xx
-    \item \textbf{Table 1.3} Original Sample Design for Areas of Critical Environmental Concern and Wilderness Study Areas \dotfill xx
-    \item \textbf{Table 1.4} Number of Plots Drawn per ACEC  \dotfill xx
-    \item \textbf{Table 1.5} Realized Weighted Sample Design for the Entire Sample Frame  \dotfill xx
-    \item \textbf{Table 1.6} Original Sample Design for Dominguez-Escalante National Monument \dotfill xx
-    \item \textbf{Table 1.7} Realized Weighted Sample Design for the Entire Sample Frame \dotfill xx
-    \item \textbf{Table 1.8} Original Sample Design for Gunnison Gorge National Monument \dotfill xx
-    \item \textbf{Table 3.1} Variation of Benchmarks \dotfill xx
-    \item \textbf{Table 5.1} Variables to calculate Potential Evaporation via the Penman-Montieth equation \dotfill xx
-    \item \textbf{Table 5.2} SPI Values Interpretation  \dotfill xx
+    \item \textbf{Table  1.1} Original Sample Design for the Entire Sample Frame \dotfill xx
+    \item \textbf{Table  1.2} Realized Weighted Sample Design for the Entire Sample Frame  \dotfill xx
+    \item \textbf{Table  1.3} Original Sample Design for Areas of Critical Environmental Concern and Wilderness Study Areas \dotfill xx
+    \item \textbf{Table  1.4} Number of Plots Drawn per ACEC  \dotfill xx
+    \item \textbf{Table  1.5} Realized Weighted Sample Design for the Entire Sample Frame  \dotfill xx
+    \item \textbf{Table  1.6} Original Sample Design for Dominguez-Escalante National Monument \dotfill xx
+    \item \textbf{Table  1.7} Realized Weighted Sample Design for the Entire Sample Frame \dotfill xx
+    \item \textbf{Table  1.8} Original Sample Design for Gunnison Gorge National Monument \dotfill xx
+    \item \textbf{Table  3.1} Variation of Benchmarks \dotfill xx
+    \item \textbf{Table  5.1} Variables to calculate Potential Evaporation via the Penman-Montieth equation \dotfill xx
+    \item \textbf{Table  5.2} SPI Values Interpretation  \dotfill xx
+    \item \textbf{Table 10.1} Land Meeting Benchmarks by Administrative Unit \dotfill xx
     
 \end{enumerate} 
 
