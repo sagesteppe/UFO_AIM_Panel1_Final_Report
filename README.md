@@ -147,27 +147,19 @@ the following widely used packages are required for all scripts, or are common e
 
 install.packages('tidyverse', 'data.table', 'sf', 'terra', 'caret', 'spsurvey', 'knitr', 'kableExtra')
 
-tidyverse (data wrangling)
-data.table (data wrangling)
-sf (spatial vector data - e.g. 'shapefiles')
-terra (spatial raster and vector data)
-caret (statistics)
-spsurvey (statistics)
-knitr (pdf reports)
-kableExtra (pdf reports)
-
+the next packages are a little bit more uncommon, but are used throughout the project:
 install.packages('prism', 'bipartite', 'ggthemes', 'cowplot', 'ggpubr', 'waffle', 'hrbrthemes', 'grid', 'gridExtra', 'ggalluvial')
 
-prism (climate)
-bipartite (networks)
-ggthemes (pretty plots)
-cowplot (multi-panel plots)
-ggpubr (boxplots)
-waffle (waffleplots)
-hrbrthemes (waffeplots)
-grid (graphics)
-gridExtra (graphics
-ggalluvial (alluvial plot)
+prism (climate)  
+bipartite (networks)  
+ggthemes (pretty plots)  
+cowplot (multi-panel plots)  
+ggpubr (boxplots)    
+waffle (waffleplots)    
+hrbrthemes (waffeplots)    
+grid (graphics)    
+gridExtra (graphics)    
+ggalluvial (alluvial plot)  
 
 
 ## Hardware Specs:
