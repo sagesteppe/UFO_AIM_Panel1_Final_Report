@@ -145,13 +145,13 @@ each of the above folders, *mostly* follow the same substructure, here is the ex
 
 the following widely used packages are required for all scripts, or are common enough I can blanky say you should install them if you do not already have them:
 
-install.packages('tidyverse', 'data.table', 'sf', 'terra', 'caret', 'spsurvey', 'knitr', 'kableExtra')
+install.packages(c('tidyverse', 'data.table', 'sf', 'terra', 'caret', 'spsurvey', 'knitr', 'kableExtra'))
 
 If you only have a couple of these, don't worry about copy and pasting the above; it will only update packages, or if they are current, R will gracefully not re-install them.
 
 The following packages are a little bit more uncommon, but are used throughout the project:  
 
-install.packages('prism', 'bipartite', 'ggthemes', 'cowplot', 'ggpubr', 'waffle', 'hrbrthemes', 'grid', 'gridExtra', 'ggalluvial')  
+install.packages(c('prism', 'bipartite', 'ggthemes', 'cowplot', 'ggpubr', 'waffle', 'hrbrthemes', 'grid', 'gridExtra', 'ggalluvial') ) 
 
 prism (climate)  
 bipartite (networks)  
