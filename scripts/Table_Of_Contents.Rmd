@@ -13,28 +13,30 @@ header-includes:
 
 \vspace{-1cm}
 
-\begin{enumerate}
+\begin{enumerate}[label=(\roman*)]
     \item Table of Contents \dotfill 1
     \item List of Figures \dotfill 2
     \item List of Tables \dotfill 3
     \item List of Acronyms \dotfill 4
     \item Abstract \dotfill 5
     \item Introduction \dotfill 6
-    \item 1) Sample Design, Stratification, and Plots Weights \dotfill 3
-    \item 2) Ecological Side Descriptions Completion Assessment \dotfill pp
-    \item 3) Increase Range around Narrow Ecological Site Benchmarks \dotfill pp
-    \item 4) Ecological Site Description and Ecological Site Group Comparison - Vegetation 'Benchmarks' \dotfill pp
-    \item 5) An Assessment of Drought Conditions \dotfill 4 pp
-    \item 6) An overview of the Analytical Sections \dotfill 5 pp
-    \item 7) Bare ground \dotfill 6 pp
-    \item 8) Soil Stability \dotfill 7 pp
-    \item 9) Noxious Species \dotfill pp
-    \item 10) Plant Functional Diversity - Cover \dotfill pp
-    \item 11) Plant Functional Diversity - Species \dotfill pp
-    \item 12) Rare Species \dotfill pp
-    \item 13) Floristic Quality Index \dotfill pp
-    \item 14) Glossary \dotfill pp
-    \item 15) Acknowledgements \dotfill pp
+\end{enumerate}
+\begin{enumerate}
+    \item Sample Design, Stratification, and Plots Weights \dotfill 3
+    \item Ecological Side Descriptions Completion Assessment \dotfill pp
+    \item Increase Range around Narrow Ecological Site Benchmarks \dotfill pp
+    \item Ecological Site Description and Ecological Site Group Comparison - Vegetation 'Benchmarks' \dotfill pp
+    \item An Assessment of Drought Conditions \dotfill pp
+    \item An Overview of the Analytical Sections \dotfill pp
+    \item Bare ground \dotfill pp
+    \item Soil Stability \dotfill pp
+    \item Noxious Species \dotfill pp
+    \item Plant Functional Diversity - Cover \dotfill pp
+    \item Plant Functional Diversity - Species \dotfill pp
+    \item Rare Species \dotfill pp
+    \item Floristic Quality Index \dotfill pp
+    \item Glossary \dotfill pp
+    \item Acknowledgements \dotfill pp
 \end{enumerate} 
 
 
@@ -65,7 +67,6 @@ header-includes:
     \item \textbf{Figure 7.2} ESD and ESG derived Benchmarks [bare ground] \dotfill xx
     \item \textbf{Figure 7.3} Bare ground \dotfill xx
     \item \textbf{Figure 7.4} Land Meeting Benchmarks (Bare Ground) \dotfill xx
-    \item \textbf{Figure 8.1} \dotfill xx
     \item \textbf{Figure 8.1} Estimates of Median Soil Stability \dotfill xx
     \item \textbf{Figure 8.2} Land Meeting Benchmarks (Soil Stability) \dotfill xx
     \item \textbf{Figure 9.1} Composite "Invasive Index" \dotfill xx
@@ -80,9 +81,11 @@ header-includes:
     \item \textbf{Figure 10.6} Proportion of Plots Meeting Benchmark \dotfill xx  
     \item \textbf{Figure 10.7} Total area of each stratum and the overall status of benchmarks \dotfill xx
     \item \textbf{Figure 11.1} Number of Species per Functional Group across ESD \dotfill xx  
-    \item \textbf{Figure 11.2} Number of Species Observed per Coarse Functional Group \dotfill xx  
-    
-    Stylized topographic map of the area of analysis
+    \item \textbf{Figure 11.2} Species Observed per AIM Plot \dotfill xx  
+    \item \textbf{Figure 12.1} Species Occurrences \dotfill xx  
+    \item \textbf{Figure 13.1} Comparison of Median Values by Stratum \dotfill xx  
+    \item \textbf{Figure 13.2} Measured and Predicted Floristic Quality \dotfill xx  
+    \item \textbf{Figure 14.1} A Sample Frame with Five Panels \dotfill xx
 \end{enumerate} 
 
 Note, digits refer to the section which the figure is located in, and the decimal to the figures number within that section. 
@@ -105,6 +108,8 @@ Note, digits refer to the section which the figure is located in, and the decima
     \item \textbf{Table  5.1} Variables to calculate Potential Evaporation via the Penman-Montieth equation \dotfill xx
     \item \textbf{Table  5.2} SPI Values Interpretation  \dotfill xx
     \item \textbf{Table 10.1} Land Meeting Benchmarks by Administrative Unit \dotfill xx
+    \item \textbf{Table 12.1} Seven Forms of Rarity - Conceptual \dotfill xx
+    \item \textbf{Table 12.2} Seven Forms of Rarity - Examples \dotfill xx
     
 \end{enumerate} 
 
@@ -113,6 +118,8 @@ Note, digits refer to the section which the figure is located in, and the decima
 {\section{List of Acronyms}} 
 \end{center}
 
+\hspace{0pt}
+\vfill
 \begin{doublespacing}
 
 \textbf{ACEC} Area of Critical Environmental Concern   \\  
@@ -134,6 +141,8 @@ Note, digits refer to the section which the figure is located in, and the decima
 \textbf{WSA} Wilderness Study Area  \\
 
 \end{doublespacing}
+\vfill
+\hspace{0pt}
 
 \newpage
 \begin{center}
