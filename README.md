@@ -141,6 +141,35 @@ each of the above folders, *mostly* follow the same substructure, here is the ex
 
 [UFO_bareground](https://github.com/sagesteppe/UFO_bareground)  compare the NOC values of bareground from a terradat summary to the benchmarks from the Reference Sheet of an ESD. 
 
+## List of rpackages
+
+the following widely used packages are required for all scripts, or are common enough I can blanky say you should install them if you do not already have them:
+
+install.packages('tidyverse', 'data.table', 'sf', 'terra', 'caret', 'spsurvey', 'knitr', 'kableExtra')
+
+tidyverse (data wrangling)
+data.table (data wrangling)
+sf (spatial vector data - e.g. 'shapefiles')
+terra (spatial raster and vector data)
+caret (statistics)
+spsurvey (statistics)
+knitr (pdf reports)
+kableExtra (pdf reports)
+
+install.packages('prism', 'bipartite', 'ggthemes', 'cowplot', 'ggpubr', 'waffle', 'hrbrthemes', 'grid', 'gridExtra', 'ggalluvial')
+
+prism (climate)
+bipartite (networks)
+ggthemes (pretty plots)
+cowplot (multi-panel plots)
+ggpubr (boxplots)
+waffle (waffleplots)
+hrbrthemes (waffeplots)
+grid (graphics)
+gridExtra (graphics
+ggalluvial (alluvial plot)
+
+
 ## Hardware Specs:
 
 Parkland:  
