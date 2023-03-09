@@ -1,0 +1,48 @@
+---
+title: "AIM Field Methods"
+output: pdf_document
+header-includes:
+- \usepackage[width=\textwidth]{caption}
+- \usepackage{wrapfig}
+---
+
+The Assess, Inventory, and Monitor program collects quantitative data related to six core indicators of rangeland health. These indicators were selected by the Bureau of Land Management as they respond quickly to different management actions and are easy to interpret. The four field methods utilized to collect these data, are relatively quick to perform, can be learned quickly, and give repeatable measurements. Three of these methods have been widely employed in the natural sciences for over half a century, and the soil stability test was largely developed around the millennium by researchers whom went on to develop AIM. 
+
+\begin{wraptable}{l}{90mm}
+    \begin{tabular}{c | c}
+      \textbf{Indicator} & \textbf{Method}\\ \hline
+      Cover Bare Ground & Line-Point Intercept (LPI) \\ \hline
+      Vegetation Composition & Line-Point Intercept (LPI) \\ \hline
+      Vegetation Height & (LPI) + Height \\ \hline
+      Length of Bare-ground & Line-Intercept ('Gap Intercept')  \\ \hline
+      Invasive Species & Species Richness; LPI \\ \hline
+      Soil Aggregate Stability & Soil Stability \\ \hline
+    \end{tabular}
+    \caption{Variables used to Calculate Potential Evaporation}
+    \label{Potential Evaporation}
+\end{wraptable}
+
+## Species Inventory
+The entirety of an AIM plot, a circle with 30m radius and ~2700 m^2^, is used to record the presence of plant species. This area is wandered in a zig-zag fashion as the technician records the presence of each vascular plant species they encounter, and flag unknown species, for 15 minutes. In the event that the technician is still detecting un-recorded species on the plot at that point, they add an additional 2 minutes, until they cannot detect another species in that interval. Species are then identified in field, or from collected specimens. 
+
+## Gap Intercept
+The original formulation of this approach, **Line Intercept**,  were developed in the 1940's in order to sample shrublands in an effective manner @canfield1941application, @bauer1943statistical. The commonly used formulation of Line Intercept is able to quickly determine the percent cover of physiognomically dominant shrubs such as Sagebrush. In the Gap Intercept utilization, rather than measuring plants, the start and end positions of bare ground are measured; it can considered the inverse of the more common method.
+
+AIM crews gather the total length of bare ground at three 25m transects, in a tri-spoke design. Each line is orientated 120° from the others, and emanating out from a 'trample/sacrifice zone' an area at the center of a plot which is prone to damage and giving erroneous measures. The technician slowly walks the length of each transect, recording the 'Start' of bare soil, and the 'End' of bare soil, for each gap > 20cm in length. The bare soil 'End', can be caused by live or dead vegetation, or embedded plant debris >~ 2 mm in diameter. 
+
+## Line-Point Intercept
+The 'point' part of this method was developed in New Zealand in the early 1920's, the decision to align points along a line was developed and popularized in the 1950's (@goodall1952some). Essentially, one has a transect tape - a line, and has a predetermined number of locations they will record the presence of a species at, generally these locations will be equi-distant from each other. 
+
+AIM crews utilize the same line for this method which they use for Gap Intercept. Their are 50 points located at 0.5 meter distances along this line, where technicians drop a pin flag, and record each plant species which it passes through as it drops vertically. The types of debris, e.g. leafy or woody, and the object at the earths surface, e.g. bare soil, gravel, or plant base is recorded as well.
+
+## Soil Stability
+This method was developed in the late 90's in order to approximate the susceptibility of soil to erosion (@CITE). It measures soil aggregates 
+
+
+\begin{wrapfigure}{r}{0.5\textwidth}
+  \centering
+    \includegraphics[width=0.5\textwidth]{../plots/graphics/Methods-Plot.png}
+  \caption{Example AIM plot, with locations of the four major methods illustrated.}
+\end{wrapfigure}
+
+
