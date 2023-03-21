@@ -188,7 +188,7 @@ RImagePalette (extract colours fom images)
 usdm (variance inflation factors, FQI)  
 vegan (plant ecology)  
 
-I probably missed a few... but you'll learn as you go. 
+I probably missed a few... but you can curse me as you go.
 
 Remember, start a FRESH r session (close R/Rstudio and reopen!) before installing these, so that you do not get the weird 'would you like to restart R before installing?' message. 
 
