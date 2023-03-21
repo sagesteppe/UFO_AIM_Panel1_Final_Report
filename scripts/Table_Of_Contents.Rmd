@@ -9,8 +9,10 @@ header-includes:
 - \usepackage{amsthm,amsmath}
 - \usepackage{setspace}
 - \usepackage{lipsum}
+- \usepackage{gobble}
 ---
 
+\pagenumbering{gobble}
 \vspace{-1cm}
 
 \begin{enumerate}[label=(\roman*)]
@@ -20,14 +22,17 @@ header-includes:
     \item List of Acronyms \dotfill 4
     \item Abstract \dotfill 5
     \item Introduction \dotfill 6
+    \item Executive Summary \dotfill 7
+    \item Field Methods \dotfill 8
 \end{enumerate}
 \begin{enumerate}
-    \item Sample Design, Stratification, and Plots Weights \dotfill 3
-    \item Ecological Side Descriptions Completion Assessment \dotfill pp
+    \item Sample Design, Stratification, and Plots Weights \dotfill 8
+    \item Vegetation Re-classification \dotfill pp
+    \item Ecological Site Descriptions Completion Assessment \dotfill pp
     \item Increase Range around Narrow Ecological Site Benchmarks \dotfill pp
     \item Ecological Site Description and Ecological Site Group Comparison - Vegetation 'Benchmarks' \dotfill pp
     \item An Assessment of Drought Conditions \dotfill pp
-    \item An Overview of the Analytical Sections \dotfill pp
+    \item An Overview of the Analytic Sections \dotfill pp
     \item Bare ground \dotfill pp
     \item Soil Stability \dotfill pp
     \item Noxious Species \dotfill pp
@@ -39,7 +44,6 @@ header-includes:
     \item Acknowledgements \dotfill pp
 \end{enumerate} 
 
-
 \newpage
 \begin{center}
 {\section{List of Figures}} 
@@ -50,42 +54,44 @@ header-includes:
     \item \textbf{Figure 1.2} AIM plots sampled near Dominguez-Escalente NCA \dotfill xx
     \item \textbf{Figure 1.3} AIM plots sampled near Gunnison-Gorge NCA \dotfill xx
     \item \textbf{Figure 1.4} Summary of Plot Sampling Effort and Plot Fates \dotfill xx
-    \item \textbf{Figure 2.1} Number of AIM plots per Ecological Site \dotfill xx
-    \item \textbf{Figure 2.2} Number of plots which have Quantitative Benchmarks \dotfill xx
-    \item \textbf{Figure 3.1} Imputed Ranges Around Mean Values \dotfill xx
-    \item \textbf{Figure 3.2} Estimates of Ranges of Quantitative Benchmarks \dotfill xx
-    \item \textbf{Figure 4.1} Proportion of Plots mapped to their Ecological Site Groups \dotfill xx
-    \item \textbf{Figure 4.2} Initial Relationship Between Field Verified ESD and ESG extracted from the gridded surface \dotfill xx
-    \item \textbf{Figure 4.3} Relationships Between ESDs and ESGs midway through the cleaning process \dotfill xx
-    \item \textbf{Figure 4.4} Relationship between ESDs and ESGs at end of classification process \dotfill xx
-    \item \textbf{Figure 4.5} Mean Benchmarks ESD and ESG \dotfill xx
-    \item \textbf{Figure 4.6} Distribution of Percent Covers \dotfill xx
-    \item \textbf{Figure 5.1} Stylized topographic map of the area of analysis \dotfill xx
-    \item \textbf{Figure 5.2} SPEI of the Uncompahgre Field Office Area \dotfill xx
-    \item \textbf{Figure 5.3} Drought Status of the Uncompahgre Field Office Area \dotfill xx
-    \item \textbf{Figure 7.1} Predicting Bare ground from Foliar Cover \dotfill xx
-    \item \textbf{Figure 7.2} ESD and ESG derived Benchmarks [bare ground] \dotfill xx
-    \item \textbf{Figure 7.3} Bare ground \dotfill xx
-    \item \textbf{Figure 7.4} Land Meeting Benchmarks (Bare Ground) \dotfill xx
-    \item \textbf{Figure 8.1} Estimates of Median Soil Stability \dotfill xx
-    \item \textbf{Figure 8.2} Land Meeting Benchmarks (Soil Stability) \dotfill xx
-    \item \textbf{Figure 9.1} Composite "Invasive Index" \dotfill xx
-    \item \textbf{Figure 9.2} Invasive Species Index \dotfill xx
-    \item \textbf{Figure 9.3} Invasive Species in the NE Field Office \dotfill xx
-    \item \textbf{Figure 9.4} Land Meeting Benchmarks (Invasive Species) \dotfill xx
-    \item \textbf{Figure 10.1} Validation of Calculations \dotfill xx
-    \item \textbf{Figure 10.2} Forb Cover [Benchmarks] \dotfill xx
-    \item \textbf{Figure 10.3} Shrub Cover [Benchmarks] \dotfill xx
-    \item \textbf{Figure 10.4} Tree Cover [Benchmarks] \dotfill xx
-    \item \textbf{Figure 10.5} Grass Cover [Benchmarks] \dotfill xx  
-    \item \textbf{Figure 10.6} Proportion of Plots Meeting Benchmark \dotfill xx  
-    \item \textbf{Figure 10.7} Total area of each stratum and the overall status of benchmarks \dotfill xx
-    \item \textbf{Figure 11.1} Number of Species per Functional Group across ESD \dotfill xx  
-    \item \textbf{Figure 11.2} Species Observed per AIM Plot \dotfill xx  
-    \item \textbf{Figure 12.1} Species Occurrences \dotfill xx  
-    \item \textbf{Figure 13.1} Comparison of Median Values by Stratum \dotfill xx  
-    \item \textbf{Figure 13.2} Measured and Predicted Floristic Quality \dotfill xx  
-    \item \textbf{Figure 14.1} A Sample Frame with Five Panels \dotfill xx
+    \item \textbf{Figure 3.1} Number of AIM plots per Ecological Site \dotfill xx
+    \item \textbf{Figure 3.2} Number of plots which have Quantitative Benchmarks \dotfill xx
+    \item \textbf{Figure 4.1} Imputed Ranges Around Mean Values \dotfill xx
+    \item \textbf{Figure 4.2} Estimates of Ranges of Quantitative Benchmarks \dotfill xx
+    \item \textbf{Figure 5.1} Proportion of Plots mapped to their Ecological Site Groups \dotfill xx
+    \item \textbf{Figure 5.2} Initial Relationship Between Field Verified ESD and ESG extracted from the gridded surface \dotfill xx
+    \item \textbf{Figure 5.3} Relationships Between ESDs and ESGs midway through the cleaning process \dotfill xx
+    \item \textbf{Figure 5.4} Relationship between ESDs and ESGs at end of classification process \dotfill xx
+    \item \textbf{Figure 5.5} Mean Benchmarks ESD and ESG \dotfill xx
+    \item \textbf{Figure 5.6} Distribution of Percent Covers \dotfill xx
+    \item \textbf{Figure 6.1} Stylized topographic map of the area of analysis \dotfill xx
+    \item \textbf{Figure 6.2} SPEI of the Uncompahgre Field Office Area \dotfill xx
+    \item \textbf{Figure 6.3} Drought Status of the Uncompahgre Field Office Area \dotfill xx
+    \item \textbf{Figure 8.1} Predicting Bare ground from Foliar Cover \dotfill xx
+    \item \textbf{Figure 8.2} ESD and ESG derived Benchmarks [bare ground] \dotfill xx
+    \item \textbf{Figure 8.3} Bare ground \dotfill xx
+    \item \textbf{Figure 8.4} Land Meeting Benchmarks (Bare Ground) \dotfill xx
+    \item \textbf{Figure 9.1} Estimates of Median Soil Stability \dotfill xx
+    \item \textbf{Figure 9.2} Land Meeting Benchmarks (Soil Stability) \dotfill xx
+    \item \textbf{Figure 10.1} Composite "Invasive Index" \dotfill xx
+    \item \textbf{Figure 10.2} Invasive Species Index \dotfill xx
+    \item \textbf{Figure 10.3} Invasive Species in the NE Field Office \dotfill xx
+    \item \textbf{Figure 10.4} Land Meeting Benchmarks (Invasive Species) \dotfill xx
+    \item \textbf{Figure 11.1} Validation of Calculations \dotfill xx
+    \item \textbf{Figure 11.2} Forb Cover [Benchmarks] \dotfill xx
+    \item \textbf{Figure 11.3} Shrub Cover [Benchmarks] \dotfill xx
+    \item \textbf{Figure 11.4} Tree Cover [Benchmarks] \dotfill xx
+    \item \textbf{Figure 11.5} Grass Cover [Benchmarks] \dotfill xx  
+    \item \textbf{Figure 11.6} Proportion of Plots Meeting Benchmark \dotfill xx  
+    \item \textbf{Figure 11.7} Total area of each stratum and the overall status of benchmarks \dotfill xx
+    \item \textbf{Figure 12.1} Number of Species per Functional Group across ESD \dotfill xx  
+    \item \textbf{Figure 12.2} Species Observed per AIM Plot \dotfill xx  
+    \item \textbf{Figure 13.1} Species Occurrences \dotfill xx  
+    \item \textbf{Figure 14.1} Measured Floristic Quality \dotfill xx 
+    \item \textbf{Figure 14.2} Comparison of Median Values by Stratum \dotfill xx  
+    \item \textbf{Figure 14.3} Predicted Floristic Quality \dotfill xx
+    \item \textbf{Figure 14.4} Model Selection Table \dotfill xx
+    \item \textbf{Figure 15.1} A Sample Frame with Five Panels \dotfill xx
 \end{enumerate} 
 
 Note, digits refer to the section which the figure is located in, and the decimal to the figures number within that section. 
@@ -110,7 +116,6 @@ Note, digits refer to the section which the figure is located in, and the decima
     \item \textbf{Table 10.1} Land Meeting Benchmarks by Administrative Unit \dotfill xx
     \item \textbf{Table 12.1} Seven Forms of Rarity - Conceptual \dotfill xx
     \item \textbf{Table 12.2} Seven Forms of Rarity - Examples \dotfill xx
-    
 \end{enumerate} 
 
 \newpage

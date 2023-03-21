@@ -4,45 +4,66 @@ output: pdf_document
 header-includes:
 - \usepackage[width=\textwidth]{caption}
 - \usepackage{wrapfig}
+- \usepackage{gobble}
+csl: ../citations/citations/apa.csl
+bibliography: ../citations/citations/citations.bib
+link-citations: yes
 ---
 
-The Assess, Inventory, and Monitor program collects quantitative data related to six core indicators of rangeland health. These indicators were selected by the Bureau of Land Management as they respond quickly to different management actions and are easy to interpret. The four field methods utilized to collect these data, are relatively quick to perform, can be learned quickly, and give repeatable measurements. Three of these methods have been widely employed in the natural sciences for over half a century, and the soil stability test was largely developed around the millennium by researchers whom went on to develop AIM. 
+\pagenumbering{gobble}
+\vspace{-1cm}
 
-\begin{wraptable}{l}{90mm}
+To determine rangeland health across BLM lands the Terrestrial Assess, Inventory, and Monitor (AIM) program collects quantitative data for six core indicators. These indicators were selected by the Bureau of Land Management as they respond readily to different management actions and are easy to interpret. The four field methods utilized to collect these data, are relatively quick to perform, can be learned quickly, and give repeatable measurements. Three of these methods have been widely employed in the natural sciences for over half a century, and the soil stability test was largely developed around the millennium by researchers whom went on to develop AIM. A comprehensive overview of these methods are provided in @AIM2021manual.
+
+All data collection performed for AIM is electronic data capture, that is data are entered directly into computer software. The software utilized for data entry are designed for survey work, and the National Operations Center (NOC) have developed AIM specific forms, populated with fields with limited entries to reduce errors. These data are then QA/QC by crew leads, and then undergo Quality Control from the NOC. Data which appear erroneous, are fixed when possible, or flagged as appropriate. 
+
+## Species Inventory
+
+\begin{wraptable}{r}{90mm}
     \begin{tabular}{c | c}
       \textbf{Indicator} & \textbf{Method}\\ \hline
       Cover Bare Ground & Line-Point Intercept (LPI) \\ \hline
       Vegetation Composition & Line-Point Intercept (LPI) \\ \hline
       Vegetation Height & (LPI) + Height \\ \hline
-      Length of Bare-ground & Line-Intercept ('Gap Intercept')  \\ \hline
+      Length of Bare-ground & Gap Intercept  \\ \hline
       Invasive Species & Species Richness; LPI \\ \hline
       Soil Aggregate Stability & Soil Stability \\ \hline
     \end{tabular}
-    \caption{Variables used to Calculate Potential Evaporation}
-    \label{Potential Evaporation}
+    \caption{Core Indicator and Methods used to Collect Them}
+    \label{Indicators and Methods}
 \end{wraptable}
 
-## Species Inventory
-The entirety of an AIM plot, a circle with 30m radius and ~2700 m^2^, is used to record the presence of plant species. This area is wandered in a zig-zag fashion as the technician records the presence of each vascular plant species they encounter, and flag unknown species, for 15 minutes. In the event that the technician is still detecting un-recorded species on the plot at that point, they add an additional 2 minutes, until they cannot detect another species in that interval. Species are then identified in field, or from collected specimens. 
+The entirety of an AIM plot, a circle with 30m radius and ~2700 m^2^, is used to record the presence of plant species (Figure 1). This area is systematically wandered, in a zig-zag fashion, as the technician records the presence of each vascular plant species they encounter, and flag unknown species, for 15 minutes. In the event that the technician is still detecting un-recorded species on the plot at that point, they add an additional 2 minutes, until they cannot detect another species in that interval. Species are then identified in field, or from collected specimens. 
+
+The entire area searched by this method is depicted in Figure 1, in beige. 
 
 ## Gap Intercept
 The original formulation of this approach, **Line Intercept**,  were developed in the 1940's in order to sample shrublands in an effective manner @canfield1941application, @bauer1943statistical. The commonly used formulation of Line Intercept is able to quickly determine the percent cover of physiognomically dominant shrubs such as Sagebrush. In the Gap Intercept utilization, rather than measuring plants, the start and end positions of bare ground are measured; it can considered the inverse of the more common method.
 
 AIM crews gather the total length of bare ground at three 25m transects, in a tri-spoke design. Each line is orientated 120° from the others, and emanating out from a 'trample/sacrifice zone' an area at the center of a plot which is prone to damage and giving erroneous measures. The technician slowly walks the length of each transect, recording the 'Start' of bare soil, and the 'End' of bare soil, for each gap > 20cm in length. The bare soil 'End', can be caused by live or dead vegetation, or embedded plant debris >~ 2 mm in diameter. 
 
+Two of three lines which they method is carried out on are depicted in Figure 1, as black lines. 
+
 ## Line-Point Intercept
+
+\begin{wrapfigure}{r}{0.6\textwidth}
+  \centering
+    \includegraphics[width=0.6\textwidth]{../graphics/Methods-Plot.png}
+  \caption{Example AIM plot, with locations of the four major methods illustrated. Note that while each line based method is performed three times, they are illustrated fewer times for clarity.}
+\end{wrapfigure}
+
 The 'point' part of this method was developed in New Zealand in the early 1920's, the decision to align points along a line was developed and popularized in the 1950's (@goodall1952some). Essentially, one has a transect tape - a line, and has a predetermined number of locations they will record the presence of a species at, generally these locations will be equi-distant from each other. 
 
 AIM crews utilize the same line for this method which they use for Gap Intercept. Their are 50 points located at 0.5 meter distances along this line, where technicians drop a pin flag, and record each plant species which it passes through as it drops vertically. The types of debris, e.g. leafy or woody, and the object at the earths surface, e.g. bare soil, gravel, or plant base is recorded as well.
 
+The 50 closely spaced points along the Northern transect (vertically orientated) are depicted in Figure 1. An additional indicator, vegetation height, is collected at ten locations along these lines as well.
+
 ## Soil Stability
-This method was developed in the late 90's in order to approximate the susceptibility of soil to erosion (@CITE). It measures soil aggregates 
+This method was developed in the late 90's in order to approximate the susceptibility of soil to erosion (@herrick2001field). It utilizes the stability of **macro-aggregates** as a proxy or erodibility. 
+
+At six, generally equidistantly spaced, locations along each transect tape, a technicians records the functional group of plant cover (if present), and collects a soil ped. After all 18 peds have been collected, they are then submerged in water and the dissolution of their particles as a function of time, and dipping cycles using a sieve are recorded.
 
 
-\begin{wrapfigure}{r}{0.5\textwidth}
-  \centering
-    \includegraphics[width=0.5\textwidth]{../plots/graphics/Methods-Plot.png}
-  \caption{Example AIM plot, with locations of the four major methods illustrated.}
-\end{wrapfigure}
+## References
 
 

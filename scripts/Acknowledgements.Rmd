@@ -5,6 +5,8 @@ output:
 header-includes:
 - \usepackage[width=\textwidth]{caption}
 - \usepackage{enumitem}
+- \usepackage{gobble}
 ---
+\pagenumbering{gobble}
 
-Many persons are thanked for their assistance over the five year field duration of this project. At Southwest Conservation Corps, whom all hiring was through, we thank Cassandra Owens, Talavi Cook, Rylee Hostrawser... At the Uncompahgre Field office Jed Songergaard, Dave Sinton, Thane Stranathan, Angela ... , Scott Zimmer. At the National Operations Center, Nathan Reddicker, Kyle KYLELLE , Walker Morton... Technicians and crew leads whom gathered these data are most warmly acknowledged: Taylor Prentice, Brandi Wheeler, Phoebe Roberts, Baili Foster,  Hannah Lovell, Megan Bach, Naomi Oberg, and Mira Fishman.
+Many persons are thanked for their assistance over the five year field duration of this project. At Southwest Conservation Corps, whom all hiring was through, we thank Cassandra Owens, Talavi Cook, Rylee Hostrawser. At the Uncompahgre Field office Dave Sinton, Jed Songergaard, Thane Stranathan, Scott Zimmer. At the National Operations Center, Nathan Redecker, Kyle Martin, Walker Morton. Technicians and crew leads whom gathered these data are most warmly acknowledged: Taylor Prentice, Brandi Wheeler, Phoebe Roberts, Baili Foster, Hannah Lovell, Megan Bach, Naomi Oberg, and Mira Fishman.
