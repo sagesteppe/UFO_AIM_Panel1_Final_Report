@@ -149,7 +149,7 @@ install.packages(c("caret", "data.table", "kableExtra", "knitr", "RColorBrewer",
 
 If you only have a couple of these, don't worry about copy and pasting the above; it will only update packages, or if they are current, R will gracefully not re-install them.
 
-The following packages are a little bit more uncommon, but are used throughout the project:  
+**The following packages are a little bit more uncommon, but are used throughout the project:**  
 
 install.packages(c("bipartite", "cowplot", "ggalluvial", "ggnewscale", "ggpubr", "ggspatial", "ggthemes", "grid", "gridExtra", "hrbrthemes", "prism", "scales", "tigris", "waffle") ) 
  
@@ -168,7 +168,7 @@ scales (convert, and colors)
 tigris (census bureau data)
 waffle (waffleplots)  
 
-the following packages are only used once or twice throughout the project.
+**the following packages are only used once or twice throughout the project.**
 
 install.packages(c("circlize", "doParallel", "factoextra", "FactoMineR", "glcm", "here",  "iNEXT", "jpeg", "MuMin", "parallel", "randomForest", "reshape2", "RImagePalette", "usdm", "vegan"))
 
