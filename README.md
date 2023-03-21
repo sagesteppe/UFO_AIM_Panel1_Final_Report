@@ -145,25 +145,52 @@ each of the above folders, *mostly* follow the same substructure, here is the ex
 
 the following widely used packages are required for all scripts, or are common enough I can blanky say you should install them if you do not already have them:
 
-install.packages(c('tidyverse', 'data.table', 'sf', 'terra', 'caret', 'spsurvey', 'knitr', 'kableExtra', 'RColorBrewer'))
+install.packages(c("caret", "data.table", "kableExtra", "knitr", "RColorBrewer", "sf", "spsurvey", "terra", "tidyverse"))
 
 If you only have a couple of these, don't worry about copy and pasting the above; it will only update packages, or if they are current, R will gracefully not re-install them.
 
 The following packages are a little bit more uncommon, but are used throughout the project:  
 
-install.packages(c('prism', 'bipartite', 'ggthemes', 'cowplot', 'ggpubr', 'waffle', 'hrbrthemes', 'grid', 'gridExtra', 'ggalluvial') ) 
-
-prism (climate)  
+install.packages(c("bipartite", "cowplot", "ggalluvial", "ggnewscale", "ggpubr", "ggspatial", "ggthemes", "grid", "gridExtra", "hrbrthemes", "prism", "scales", "tigris", "waffle") ) 
+ 
 bipartite (networks)  
-ggthemes (pretty plots)  
-cowplot (multi-panel plots)  
-ggpubr (boxplots)    
-waffle (waffleplots)    
-hrbrthemes (waffeplots)    
-grid (graphics)    
-gridExtra (graphics)    
+cowplot (multi-panel plots) 
 ggalluvial (alluvial plot)  
+ggnewscale (multiple fills per plot)
+ggpubr (boxplots)    
+ggspatial (cartographic components)
+ggthemes (pretty plots)   
+grid (graphics)    
+gridExtra (graphics)   
+hrbrthemes (waffeplots)    
+prism (climate) 
+scales (convert, and colors)
+tigris (census bureau data)
+waffle (waffleplots)  
 
+the following packages are only used once or twice throughout the project.
+
+install.packages(c("circlize", "doParallel", "factoextra", "FactoMineR", "glcm", "here",  "iNEXT", "jpeg", "MuMin", "parallel", "randomForest", "reshape2", "RImagePalette", "usdm", "vegan"))
+
+circlize (circle graph, vegetation classification)
+doParallel (split cores)
+factoextra (PCA, vegetation classification)
+FactoMineR (PCA, vegetation classification)
+here (used in veg class, hoping to remove)
+glcm (vegetation classification)
+iNEXT (rarefaction, Species Diversity)
+jpeg (import images)
+MuMIn (multimodel inference, FQI)
+parallel (split cores)
+randomForest (Random Forest models, vegetation classification)
+reshape2 (from long data to matrices, Species Diversity)
+RImagePalette (extract colours fom images)
+usdm (variance inflation factors, FQI)
+vegan (plant ecology)
+
+I probably missed a few... but you'll learn as you go. 
+
+Remember, start a FRESH r session (close R/Rstudio and reopen!) before installing these, so that you do not get the weird 'would you like to restart R before installing?' message. 
 
 ## Hardware Specs:
 
