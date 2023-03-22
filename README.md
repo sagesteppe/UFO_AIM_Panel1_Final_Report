@@ -170,7 +170,7 @@ waffle (waffleplots)
 
 **the following packages are only used once or twice throughout the project.**
 
-install.packages(c("circlize", "doParallel", "factoextra", "FactoMineR", "glcm", "here",  "iNEXT", "jpeg", "MuMin", "parallel", "randomForest", "reshape2", "RImagePalette", "usdm", "vegan"))
+install.packages(c("circlize", "doParallel", "factoextra", "FactoMineR", "glcm", "gt", "here",  "iNEXT", "jpeg", "MuMin", "parallel", "randomForest", "reshape2", "RImagePalette", "usdm", "vegan"))
 
 circlize (circle graph, vegetation classification)   
 doParallel (split cores)   
@@ -178,6 +178,7 @@ factoextra (PCA, vegetation classification)
 FactoMineR (PCA, vegetation classification)   
 here (used in veg class, hoping to remove)   
 glcm (vegetation classification)    
+gt (fancy tables)    
 iNEXT (rarefaction, Species Diversity)   
 jpeg (import images)    
 MuMIn (multimodel inference, FQI)   
