@@ -8,5 +8,18 @@ header-includes:
 - \usepackage{gobble}
 ---
 \pagenumbering{gobble}
+\begin{center}
 
-Many persons are thanked for their assistance over the five year field duration of this project. At Southwest Conservation Corps, whom all hiring was through, we thank Cassandra Owens, Talavi Cook, Rylee Hostrawser. At the Uncompahgre Field office Dave Sinton, Jed Songergaard, Thane Stranathan, Scott Zimmer. At the National Operations Center, Nathan Redecker, Kyle Martin, Walker Morton. Technicians and crew leads whom gathered these data are most warmly acknowledged: Taylor Prentice, Brandi Wheeler, Phoebe Roberts, Baili Foster, Hannah Lovell, Megan Bach, Naomi Oberg, and Mira Fishman.
+Many persons are thanked for their assistance over the five year field duration of this project. 
+
+Technicians and crew leads who gathered these data are most warmly acknowledged. Without there efforts, and diligent collection of these data - often under difficult situations, this project would not have been possible. Taylor Prentice ('19 - '21),  Brandi Wheeler ('19 - '20), Phoebe Roberts ('18, '19, '22), Tiffany Reese ('18), Laura Moreno ('18), Ben Selig ('18), Baili Foster ('19), Tyver Butler ('21), Jack Whalen ('21), Hannah Lovell ('22), Megan Bach ('22), Naomi Oberg ('22), and Reed Benkendorf ('22).
+
+We thank all private landowners who allowed our crews to travel across their private roads, and property, in order to be able to sample all plots more efficiently. We especially thank the few individuals who even assisted crews on plot, offered navigation advice, and on occasion bunking.
+
+At the Uncompahgre Field office we thank Dave Sinton for assistance with tablets and geospatial processes, Jedd Sondergard for assistance with navigation to plots, and edits on several sections of this document. Scott Zimmer for assistance with navigation to plots, and Bert Potwin for overall crew support.  We also extend our gratitude to Rooster Barnhardt and Henry (ASK CAROLINE), for their river navigation expertise and assistance in accessing remote reaches of the study area.
+
+At the National Operations Center, we thank Nathan Redecker for assisting with quality control of data, Kyle Martin for assistance with data queries and delivery, and Walker Morton for assisting us with editing our data as needed.
+
+At Southwest Conservation Corps, whom all hiring was through, we thank Cassandra Owens, Talavi Cook, Rylee Hostrawser.
+
+\end{center}

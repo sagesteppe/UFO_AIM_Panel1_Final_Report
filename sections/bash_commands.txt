@@ -1,0 +1,14 @@
+SEC=$(ls -v1 | grep 'Section.*pdf') 
+REPORT=('Table_of_Contents.pdf' 'Executive_Summary.pdf' 'AIM_Methods.pdf')
+REPORT+=(${SEC[@]})
+
+
+pdftk  REPORT cat output mergedfile.pdf
+
+# brute force...
+
+pdftek 
+
+
+pdftk Table_of_Contents.pdf Executive_Summary.pdf AIM_Methods.pdf Section_1.pdf Section_2.pdf Section_3.pdf Section_4.pdf Section_5.pdf Section_6.pdf Section_7.pdf Section_8.pdf Section_9.pdf Section_10.pdf Section_11.pdf Section_12.pdf Section_13.pdf Section_14.pdf Section_15.pdf Section_16.pdf cat output report.pdf
+

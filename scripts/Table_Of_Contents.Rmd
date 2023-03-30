@@ -18,29 +18,29 @@ header-includes:
 \begin{enumerate}[label=(\roman*)]
     \item Table of Contents \dotfill 1
     \item List of Figures \dotfill 2
-    \item List of Tables \dotfill 3
-    \item List of Acronyms \dotfill 4
-    \item Abstract \dotfill 5
-    \item Introduction \dotfill 6
-    \item Executive Summary \dotfill 7
-    \item Field Methods \dotfill 8
+    \item List of Tables \dotfill 4
+    \item List of Acronyms \dotfill 5
+    \item Abstract \dotfill 6
+    \item Introduction \dotfill 7
+    \item Executive Summary \dotfill 8
+    \item Field Methods \dotfill 9
 \end{enumerate}
 \begin{enumerate}
-    \item Sample Design, Stratification, and Plots Weights \dotfill 8
-    \item Vegetation Re-classification \dotfill pp
-    \item Ecological Site Descriptions Completion Assessment \dotfill pp
-    \item Increase Range around Narrow Ecological Site Benchmarks \dotfill pp
-    \item Ecological Site Description and Ecological Site Group Comparison - Vegetation 'Benchmarks' \dotfill pp
-    \item An Assessment of Drought Conditions \dotfill pp
-    \item An Overview of the Analytic Sections \dotfill pp
-    \item Bare ground \dotfill pp
-    \item Soil Stability \dotfill pp
-    \item Noxious Species \dotfill pp
-    \item Plant Functional Diversity - Cover \dotfill pp
-    \item Plant Functional Diversity - Species \dotfill pp
-    \item Rare Species \dotfill pp
-    \item Floristic Quality Index \dotfill pp
-    \item Glossary \dotfill pp
+    \item Sample Design, Stratification, and Plots Weights \dotfill 12
+    \item Vegetation Re-classification \dotfill 21
+    \item Ecological Site Descriptions Completion Assessment \dotfill 26
+    \item Increase Range around Narrow Ecological Site Benchmarks \dotfill 29
+    \item Ecological Site Description and Ecological Site Group Comparison - Vegetation 'Benchmarks' \dotfill 31
+    \item An Assessment of Drought Conditions \dotfill 36
+    \item An Overview of the Analytic Sections \dotfill 41
+    \item Bare ground \dotfill 42
+    \item Soil Stability \dotfill 45
+    \item Noxious Species \dotfill 49
+    \item Plant Functional Diversity - Cover \dotfill 54
+    \item Plant Functional Diversity - Species \dotfill 66
+    \item Rare Species \dotfill 71
+    \item Floristic Quality Index \dotfill 77
+    \item Glossary \dotfill 84
     \item Acknowledgements \dotfill pp
 \end{enumerate} 
 
@@ -50,48 +50,50 @@ header-includes:
 \end{center}
 
 \begin{enumerate}
-    \item \textbf{Figure 1.1} All AIM plots sampled in the field office  \dotfill xx
-    \item \textbf{Figure 1.2} AIM plots sampled near Dominguez-Escalente NCA \dotfill xx
-    \item \textbf{Figure 1.3} AIM plots sampled near Gunnison-Gorge NCA \dotfill xx
-    \item \textbf{Figure 1.4} Summary of Plot Sampling Effort and Plot Fates \dotfill xx
-    \item \textbf{Figure 3.1} Number of AIM plots per Ecological Site \dotfill xx
-    \item \textbf{Figure 3.2} Number of plots which have Quantitative Benchmarks \dotfill xx
-    \item \textbf{Figure 4.1} Imputed Ranges Around Mean Values \dotfill xx
-    \item \textbf{Figure 4.2} Estimates of Ranges of Quantitative Benchmarks \dotfill xx
-    \item \textbf{Figure 5.1} Proportion of Plots mapped to their Ecological Site Groups \dotfill xx
-    \item \textbf{Figure 5.2} Initial Relationship Between Field Verified ESD and ESG extracted from the gridded surface \dotfill xx
-    \item \textbf{Figure 5.3} Relationships Between ESDs and ESGs midway through the cleaning process \dotfill xx
-    \item \textbf{Figure 5.4} Relationship between ESDs and ESGs at end of classification process \dotfill xx
-    \item \textbf{Figure 5.5} Mean Benchmarks ESD and ESG \dotfill xx
-    \item \textbf{Figure 5.6} Distribution of Percent Covers \dotfill xx
-    \item \textbf{Figure 6.1} Stylized topographic map of the area of analysis \dotfill xx
-    \item \textbf{Figure 6.2} SPEI of the Uncompahgre Field Office Area \dotfill xx
-    \item \textbf{Figure 6.3} Drought Status of the Uncompahgre Field Office Area \dotfill xx
-    \item \textbf{Figure 8.1} Predicting Bare ground from Foliar Cover \dotfill xx
-    \item \textbf{Figure 8.2} ESD and ESG derived Benchmarks [bare ground] \dotfill xx
-    \item \textbf{Figure 8.3} Bare ground \dotfill xx
-    \item \textbf{Figure 8.4} Land Meeting Benchmarks (Bare Ground) \dotfill xx
-    \item \textbf{Figure 9.1} Estimates of Median Soil Stability \dotfill xx
-    \item \textbf{Figure 9.2} Land Meeting Benchmarks (Soil Stability) \dotfill xx
-    \item \textbf{Figure 10.1} Composite "Invasive Index" \dotfill xx
-    \item \textbf{Figure 10.2} Invasive Species Index \dotfill xx
-    \item \textbf{Figure 10.3} Invasive Species in the NE Field Office \dotfill xx
-    \item \textbf{Figure 10.4} Land Meeting Benchmarks (Invasive Species) \dotfill xx
-    \item \textbf{Figure 11.1} Validation of Calculations \dotfill xx
-    \item \textbf{Figure 11.2} Forb Cover [Benchmarks] \dotfill xx
-    \item \textbf{Figure 11.3} Shrub Cover [Benchmarks] \dotfill xx
-    \item \textbf{Figure 11.4} Tree Cover [Benchmarks] \dotfill xx
-    \item \textbf{Figure 11.5} Grass Cover [Benchmarks] \dotfill xx  
-    \item \textbf{Figure 11.6} Proportion of Plots Meeting Benchmark \dotfill xx  
-    \item \textbf{Figure 11.7} Total area of each stratum and the overall status of benchmarks \dotfill xx
-    \item \textbf{Figure 12.1} Number of Species per Functional Group across ESD \dotfill xx  
-    \item \textbf{Figure 12.2} Species Observed per AIM Plot \dotfill xx  
-    \item \textbf{Figure 13.1} Species Occurrences \dotfill xx  
-    \item \textbf{Figure 14.1} Measured Floristic Quality \dotfill xx 
-    \item \textbf{Figure 14.2} Comparison of Median Values by Stratum \dotfill xx  
-    \item \textbf{Figure 14.3} Predicted Floristic Quality \dotfill xx
-    \item \textbf{Figure 14.4} Model Selection Table \dotfill xx
-    \item \textbf{Figure 15.1} A Sample Frame with Five Panels \dotfill xx
+    \item \textbf{Figure VIII.1} Layout of an AIM plot \dotfill 10
+    \item \textbf{Figure 1.1} All AIM plots sampled in the field office  \dotfill 14
+    \item \textbf{Figure 1.2} AIM plots sampled near Dominguez-Escalente NCA \dotfill 17
+    \item \textbf{Figure 1.3} AIM plots sampled near Gunnison-Gorge NCA \dotfill 18
+    \item \textbf{Figure 1.4} Summary of Plot Sampling Effort and Plot Fates \dotfill 20
+    \item \textbf{Figure 2.1} Relationships between diagnostic metrics for vegetation types \dotfill 23
+    \item \textbf{Figure 2.2} Percent Land Cover \dotfill 24
+    \item \textbf{Figure 2.3} Movement of Pixels from stratification to post stratification \dotfill 25
+    \item \textbf{Figure 3.1} Number of AIM plots per Ecological Site \dotfill 27
+    \item \textbf{Figure 3.2} Number of plots which have Quantitative Benchmarks \dotfill 27
+    \item \textbf{Figure 4.1} Imputed Ranges Around Mean Values \dotfill 29
+    \item \textbf{Figure 4.2} Estimates of Ranges of Quantitative Benchmarks \dotfill 30
+    \item \textbf{Figure 5.1} Proportion of Plots mapped to their Ecological Site Groups \dotfill 32
+    \item \textbf{Figure 5.2} Initial Relationship Between Field Verified ESD and ESG extracted from the gridded surface \dotfill 32
+    \item \textbf{Figure 5.3} Relationships Between ESDs and ESGs midway through the cleaning process \dotfill 33
+    \item \textbf{Figure 5.4} Relationship between ESDs and ESGs at end of classification process \dotfill 33
+    \item \textbf{Figure 5.5} Mean Benchmarks ESD and ESG \dotfill 34
+    \item \textbf{Figure 6.1} Stylized topographic map of the area of analysis \dotfill 38
+    \item \textbf{Figure 6.2} SPEI of the Uncompahgre Field Office Area \dotfill 39
+    \item \textbf{Figure 6.3} Drought Status of the Uncompahgre Field Office Area \dotfill 39
+    \item \textbf{Figure 8.2} ESD and ESG derived Benchmarks [bare ground] \dotfill 42
+    \item \textbf{Figure 8.3} Bare ground \dotfill 43
+    \item \textbf{Figure 8.4} Land Meeting Benchmarks (Bare Ground) \dotfill 44
+    \item \textbf{Figure 9.1} Estimates of Median Soil Stability \dotfill 46
+    \item \textbf{Figure 9.2} Land Meeting Benchmarks (Soil Stability) \dotfill 47
+    \item \textbf{Figure 10.1} Composite "Invasive Index" \dotfill 50
+    \item \textbf{Figure 10.2} Invasive Species Index \dotfill 51
+    \item \textbf{Figure 10.3} Invasive Species in the NE Field Office \dotfill 51
+    \item \textbf{Figure 10.4} Land Meeting Benchmarks (Invasive Species) \dotfill 52
+    \item \textbf{Figure 11.1} Validation of Calculations \dotfill 55
+    \item \textbf{Figure 11.2} Forb Cover [Benchmarks] \dotfill 56
+    \item \textbf{Figure 11.3} Shrub Cover [Benchmarks] \dotfill 58
+    \item \textbf{Figure 11.4} Tree Cover [Benchmarks] \dotfill 59
+    \item \textbf{Figure 11.5} Grass Cover [Benchmarks] \dotfill 60  
+    \item \textbf{Figure 11.6} Proportion of Plots Meeting Benchmark \dotfill 61  
+    \item \textbf{Figure 11.7} Total area of each stratum and the overall status of benchmarks \dotfill 62
+    \item \textbf{Figure 12.1} Number of Species per Functional Group across ESD \dotfill 67  
+    \item \textbf{Figure 12.2} Species Observed per AIM Plot \dotfill 68  
+    \item \textbf{Figure 13.1} Species Occurrences \dotfill 73  
+    \item \textbf{Figure 14.1} Measured Floristic Quality \dotfill 78 
+    \item \textbf{Figure 14.2} Comparison of Median Values by Stratum \dotfill 80  
+    \item \textbf{Figure 14.3} Predicted Floristic Quality \dotfill 80
+    \item \textbf{Figure 14.4} Model Selection Table \dotfill 82
+    \item \textbf{Figure 15.1} A Sample Frame with Five Panels \dotfill 85
 \end{enumerate} 
 
 Note, digits refer to the section which the figure is located in, and the decimal to the figures number within that section. 
@@ -102,20 +104,22 @@ Note, digits refer to the section which the figure is located in, and the decima
 \end{center}
 
 \begin{enumerate}
-    \item \textbf{Table  1.1} Original Sample Design for the Entire Sample Frame \dotfill xx
-    \item \textbf{Table  1.2} Realized Weighted Sample Design for the Entire Sample Frame  \dotfill xx
-    \item \textbf{Table  1.3} Original Sample Design for Areas of Critical Environmental Concern and Wilderness Study Areas \dotfill xx
-    \item \textbf{Table  1.4} Number of Plots Drawn per ACEC  \dotfill xx
-    \item \textbf{Table  1.5} Realized Weighted Sample Design for the Entire Sample Frame  \dotfill xx
-    \item \textbf{Table  1.6} Original Sample Design for Dominguez-Escalante National Monument \dotfill xx
-    \item \textbf{Table  1.7} Realized Weighted Sample Design for the Entire Sample Frame \dotfill xx
-    \item \textbf{Table  1.8} Original Sample Design for Gunnison Gorge National Monument \dotfill xx
-    \item \textbf{Table  3.1} Variation of Benchmarks \dotfill xx
-    \item \textbf{Table  5.1} Variables to calculate Potential Evaporation via the Penman-Montieth equation \dotfill xx
-    \item \textbf{Table  5.2} SPI Values Interpretation  \dotfill xx
-    \item \textbf{Table 10.1} Land Meeting Benchmarks by Administrative Unit \dotfill xx
-    \item \textbf{Table 12.1} Seven Forms of Rarity - Conceptual \dotfill xx
-    \item \textbf{Table 12.2} Seven Forms of Rarity - Examples \dotfill xx
+    \item \textbf{Figure VIII.1} Core Indicators and Methods to Collect them \dotfill 9
+    \item \textbf{Table  1.1} Original Sample Design for the Entire Sample Frame \dotfill 14
+    \item \textbf{Table  1.2} Realized Weighted Sample Design for the Entire Sample Frame  \dotfill 14
+    \item \textbf{Table  1.3} Original Sample Design for Areas of Critical Environmental Concern and Wilderness Study Areas \dotfill 15
+    \item \textbf{Table  1.4} Number of Plots Drawn per ACEC  \dotfill 16
+    \item \textbf{Table  1.5} Realized Weighted Sample Design for the Entire Sample Frame  \dotfill 16
+    \item \textbf{Table  1.6} Original Sample Design for Dominguez-Escalante \dotfill 17
+    \item \textbf{Table  1.7} Realized Weighted Sample Design for Dominguez-Escalante \dotfill 18
+    \item \textbf{Table  1.8} Original Sample Design for Gunnison Gorge \dotfill 18
+    \item \textbf{Table  1.9} Realized Weighted Sample Design for Gunnison Gorge \dotfill 19
+    \item \textbf{Table  3.1} Variation of Benchmarks \dotfill 29
+    \item \textbf{Table  5.1} Variables to calculate Potential Evaporation via the Penman-Montieth equation \dotfill 37
+    \item \textbf{Table  5.2} SPI Values Interpretation  \dotfill 38
+    \item \textbf{Table 10.1} Land Meeting Benchmarks by Administrative Unit \dotfill 63
+    \item \textbf{Table 12.1} Seven Forms of Rarity - Conceptual \dotfill 71
+    \item \textbf{Table 12.2} Seven Forms of Rarity - Examples \dotfill 72
 \end{enumerate} 
 
 \newpage
@@ -156,7 +160,7 @@ Note, digits refer to the section which the figure is located in, and the decima
 
 The Uncompahgre Field office completed the first Terrestrial Assess, Inventory, and Monitor panel which it initiated in summer of 2022. This report summarizes the status and conditions of several key indicators from the AIM data set, in comparison to the reference conditions contained in Ecological Site Descriptions, or when required Ecological Site Groups. All comparisons are made using spatially explicit inferential statistics which allow for the interpretation of the percent of the field office falling into different categories which are meeting management conditions as specified in the Resource Management Plan (RMP).
 
-Virtually all work was conducted in the statistical Programming language R, with occasional use of 'bash' and python. Most project 'styling' and report elements were designed using Latex in an Rmarkdown/Rstudio environment. All work was tracked using the version control software 'git' and is stored on a website known as Github, which contains logs of all major incremental changes in the sections. We hope that these steps make it easy for others to replicate our work, and in short order build upon, and then readily surpass it.
+Virtually all work was conducted in the statistical Programming language R, with occasional use of 'bash' and python. Most project 'styling' and report elements were designed using Latex in an Rmarkdown/Rstudio environment. All work was tracked using the version control software 'git' and is stored on a website known as Github, which contains logs of all major incremental changes in the sections. We hope that these steps make it easy for others to replicate our work, in short order build upon, and then readily surpass it.
 
 \newpage
 \begin{center}
