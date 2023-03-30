@@ -16,10 +16,10 @@ Technicians and crew leads who gathered these data are most warmly acknowledged.
 
 We thank all private landowners who allowed our crews to travel across their private roads, and property, in order to be able to sample all plots more efficiently. We especially thank the few individuals who even assisted crews on plot, offered navigation advice, and on occasion bunking.
 
-At the Uncompahgre Field office we thank Dave Sinton for assistance with tablets and geospatial processes, Jedd Sondergard for assistance with navigation to plots, and edits on several sections of this document. Scott Zimmer for assistance with navigation to plots, and Bert Potwin for overall crew support.  We also extend our gratitude to Rooster Barnhardt and Henry (ASK CAROLINE), for their river navigation expertise and assistance in accessing remote reaches of the study area.
+At the Uncompahgre Field office we thank Dave Sinton for assistance with tablets and geospatial processes, Jedd Sondergard for assistance with navigation to plots, and edits on several sections of this document. Scott Zimmer for assistance with navigation to plots, and Bert Potwin for overall crew support.  We also extend our gratitude to Rooster Barnhardt and Henry, for their river navigation expertise and assistance in accessing remote reaches of the study area.
 
 At the National Operations Center, we thank Nathan Redecker for assisting with quality control of data, Kyle Martin for assistance with data queries and delivery, and Walker Morton for assisting us with editing our data as needed.
 
-At Southwest Conservation Corps, whom all hiring was through, we thank Cassandra Owens, Talavi Cook, Rylee Hostrawser.
+At Southwest Conservation Corps, whom all hiring was through, we thank Cassandra Owens, Talavi Cook, and Rylee Hostrawser.
 
 \end{center}

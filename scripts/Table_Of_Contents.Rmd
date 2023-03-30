@@ -41,7 +41,7 @@ header-includes:
     \item Rare Species \dotfill 71
     \item Floristic Quality Index \dotfill 77
     \item Glossary \dotfill 84
-    \item Acknowledgements \dotfill pp
+    \item Acknowledgements \dotfill 87
 \end{enumerate} 
 
 \newpage
@@ -61,7 +61,6 @@ header-includes:
     \item \textbf{Figure 3.1} Number of AIM plots per Ecological Site \dotfill 27
     \item \textbf{Figure 3.2} Number of plots which have Quantitative Benchmarks \dotfill 27
     \item \textbf{Figure 4.1} Imputed Ranges Around Mean Values \dotfill 29
-    \item \textbf{Figure 4.2} Estimates of Ranges of Quantitative Benchmarks \dotfill 30
     \item \textbf{Figure 5.1} Proportion of Plots mapped to their Ecological Site Groups \dotfill 32
     \item \textbf{Figure 5.2} Initial Relationship Between Field Verified ESD and ESG extracted from the gridded surface \dotfill 32
     \item \textbf{Figure 5.3} Relationships Between ESDs and ESGs midway through the cleaning process \dotfill 33
@@ -93,7 +92,8 @@ header-includes:
     \item \textbf{Figure 14.2} Comparison of Median Values by Stratum \dotfill 80  
     \item \textbf{Figure 14.3} Predicted Floristic Quality \dotfill 80
     \item \textbf{Figure 14.4} Model Selection Table \dotfill 82
-    \item \textbf{Figure 15.1} A Sample Frame with Five Panels \dotfill 85
+    \item \textbf{Figure 15.1} Alternative Stable States \dotfill 84
+    \item \textbf{Figure 15.2} A Sample Frame with Five Panels \dotfill 86
 \end{enumerate} 
 
 Note, digits refer to the section which the figure is located in, and the decimal to the figures number within that section. 

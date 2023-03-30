@@ -2,13 +2,34 @@ SEC=$(ls -v1 | grep 'Section.*pdf')
 REPORT=('Table_of_Contents.pdf' 'Executive_Summary.pdf' 'AIM_Methods.pdf')
 REPORT+=(${SEC[@]})
 
-
 pdftk  REPORT cat output mergedfile.pdf
-
-# brute force...
 
 pdftek 
 
+pdftk Table_Of_Contents.pdf Executive_Summary.pdf AIM_Methods.pdf Section_1.pdf Section_2.pdf Section_3.pdf Section_4.pdf Section_5.pdf Section_6.pdf Section_7.pdf Section_8.pdf Section_9.pdf Section_10.pdf Section_11.pdf Section_12.pdf Section_13.pdf Section_14.pdf Section_15.pdf Section_16.pdf cat output ../final/report.pdf
 
-pdftk Table_of_Contents.pdf Executive_Summary.pdf AIM_Methods.pdf Section_1.pdf Section_2.pdf Section_3.pdf Section_4.pdf Section_5.pdf Section_6.pdf Section_7.pdf Section_8.pdf Section_9.pdf Section_10.pdf Section_11.pdf Section_12.pdf Section_13.pdf Section_14.pdf Section_15.pdf Section_16.pdf cat output report.pdf
 
+# we now move to the final directory and use this script to create a pdf of pages which are blank - except for having page numbers in the lower right corner. we will overlay these values on the report. 
+
+report_raw=$(ls | egrep '\.pdf')
+
+total=$(pdftk $report_raw dump_data | grep NumberOfPages | awk '{print $2}')
+gs -o pagenumbers.pdf    \
+   -sDEVICE=pdfwrite        \
+   -g5950x8420              \
+   -c "/Helvetica findfont  \
+       12 scalefont setfont \
+       1 1  ${total} {      \
+       /PageNo exch def     \
+       450 20 moveto        \
+       (Page ) show         \
+       PageNo 3 string cvs  \
+       show                 \
+       ( of ${total}) show  \
+       showpage             \
+       } for"
+
+
+pdftk $report_raw             \
+  multistamp pagenumbers.pdf \
+  output report-numbered.pdf
