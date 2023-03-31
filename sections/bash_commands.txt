@@ -1,16 +1,27 @@
+# pull in all the sections of the report to the same directory
+~ AIM_5_yr # from here, project root. # copy the files into this directory, where they will be assembled into the pdf
+find -name 'Section_*.pdf' -exec cp "{}" ./UFO_AIM_Panel1_Final_Report/sections/raw \;
+
+# now pull in the other assorted files to this location
+intro_files=(Table_Of_Contents.pdf Executive_Summary.pdf AIM_Methods.pdf) 
+for i in "${intro_files[@]}" ; do find -name "$i" -exec cp "{}" ./UFO_AIM_Panel1_Final_Report/sections/raw \;; done
+
+# cd to /UFO_AIM_Panel1_Final_Report/sections/raw
+cd ./UFO_AIM_Panel1_Final_Report/sections/raw
+
+# place all files into an ordered array
 SEC=$(ls -v1 | grep 'Section.*pdf') 
-REPORT=('Table_of_Contents.pdf' 'Executive_Summary.pdf' 'AIM_Methods.pdf')
-REPORT+=(${SEC[@]})
+intro_files+=(${SEC[@]})
 
-pdftk  REPORT cat output mergedfile.pdf
+# verify it worked: printf "%s\n" "${intro_files[@]}"
 
-pdftek 
-
-pdftk Table_Of_Contents.pdf Executive_Summary.pdf AIM_Methods.pdf Section_1.pdf Section_2.pdf Section_3.pdf Section_4.pdf Section_5.pdf Section_6.pdf Section_7.pdf Section_8.pdf Section_9.pdf Section_10.pdf Section_11.pdf Section_12.pdf Section_13.pdf Section_14.pdf Section_15.pdf Section_16.pdf cat output ../final/report.pdf
-
+# now assemble all of the files into the report and move it to a new folder.
+pdftk ${intro_files[*]} cat output ../../final/report.pdf
 
 # we now move to the final directory and use this script to create a pdf of pages which are blank - except for having page numbers in the lower right corner. we will overlay these values on the report. 
 
+
+cd ../../final
 report_raw=$(ls | egrep '\.pdf')
 
 total=$(pdftk $report_raw dump_data | grep NumberOfPages | awk '{print $2}')
@@ -29,7 +40,6 @@ gs -o pagenumbers.pdf    \
        showpage             \
        } for"
 
-
-pdftk $report_raw             \
+pdftk $report_raw            \
   multistamp pagenumbers.pdf \
   output report-numbered.pdf
