@@ -6,7 +6,7 @@ find -name 'Section_*.pdf' -exec cp "{}" ./UFO_AIM_Panel1_Final_Report/sections/
 intro_files=(Table_Of_Contents.pdf Executive_Summary.pdf AIM_Methods.pdf) 
 for i in "${intro_files[@]}" ; do find -name "$i" -exec cp "{}" ./UFO_AIM_Panel1_Final_Report/sections/raw \;; done
 
-# cd to /UFO_AIM_Panel1_Final_Report/sections/raw
+# change directory to /UFO_AIM_Panel1_Final_Report/sections/raw
 cd ./UFO_AIM_Panel1_Final_Report/sections/raw
 
 # place all files into an ordered array
