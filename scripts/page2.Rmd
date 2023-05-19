@@ -1,0 +1,44 @@
+---
+title: ""
+output: pdf_document
+header-includes:
+- \usepackage[width=\textwidth]{caption}
+- \usepackage{wrapfig}
+- \usepackage{hanging}
+---
+
+\pagenumbering{gobble}
+\vspace*{11cm}
+
+**Mission statement**  
+The Bureau of Land Management sustains the health, diversity, and productivity of the public lands 
+for the use and enjoyment of present and future generations.
+
+\vspace{3cm}
+
+**Suggested Citation:**  
+\hangpara{1.5em}{2} Benkendorf, Reed, and K. Holsinger. 2023.Assessment of Current Upland Vegetation Conditions in the
+Uncompahgre Field Office, Gunnison Gorge, and Dominguez-Escalante National Conservation Areas U.S. Department of the Interior, Bureau of Land Management, Uncompahgre Field Office, Montrose, CO. 
+
+\newpage
+
+\LARGE
+**Assessment of Current Upland Vegetation Conditions in the Uncompahgre Field Office, Gunnison Gorge, and Dominguez-Escalante National Conservation Areas**
+\normalsize
+
+\vspace{5cm}
+
+**Authors:**  
+Reed Benkendorf  
+Senior Botanist  
+Chicago Botanic Garden  
+
+\vspace{2cm}
+
+Ken Holsinger  
+Ecologist  
+BLM Uncompahgre Field Office  
+Montrose, Colorado  
+
+
+

@@ -2,8 +2,11 @@
 ~ AIM_5_yr # from here, project root. # copy the files into this directory, where they will be assembled into the pdf
 find -name 'Section_*.pdf' -exec cp "{}" ./UFO_AIM_Panel1_Final_Report/sections/raw \;
 
+# subset the coverpage to remove the border from the sections directory
+pdfcrop --margins '-1 -1 -1 -1' Coverpage_raw.pdf Coverpage.pdf
+
 # now pull in the other assorted files to this location
-intro_files=(Table_Of_Contents.pdf Executive_Summary.pdf AIM_Methods.pdf) 
+intro_files=(Coverpage.pdf page2.pdf Table_Of_Contents.pdf Executive_Summary.pdf AIM_Methods.pdf) 
 for i in "${intro_files[@]}" ; do find -name "$i" -exec cp "{}" ./UFO_AIM_Panel1_Final_Report/sections/raw \;; done
 
 # change directory to /UFO_AIM_Panel1_Final_Report/sections/raw
