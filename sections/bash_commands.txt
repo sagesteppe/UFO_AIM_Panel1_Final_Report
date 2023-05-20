@@ -46,3 +46,22 @@ gs -o pagenumbers.pdf    \
 pdftk $report_raw            \
   multistamp pagenumbers.pdf \
   output report-numbered.pdf
+  
+  
+  
+# now add bookmarks to the file
+  
+pdftk report-numbered.pdf dump_data output bookmarks+otherdata.txt
+  
+# modify them by hand to your liking, and save it as a new copy once complete (to prevent overwriting)
+mv bookmarks+otherdata.txt bookmarks.txt
+
+
+# now insert the bookmarks you want, overwriting the original
+pdftk report-numbered.pdf update_info bookmarks.txt output report_final.pdf
+
+
+
+pdftk report-numbered.pdf update_info bookmarks.txt output 'Assessment of Current Upland Vegetation Conditions in the Uncompahgre Field Office, Gunnison Gorge, and Dominguez-Escalante National Conservation Areas.pdf'
+
+

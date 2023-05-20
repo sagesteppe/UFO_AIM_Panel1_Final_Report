@@ -17,7 +17,7 @@ for the use and enjoyment of present and future generations.
 \vspace{3cm}
 
 **Suggested Citation:**  
-\hangpara{1.5em}{2} Benkendorf, Reed, and K. Holsinger. 2023.Assessment of Current Upland Vegetation Conditions in the
+\hangpara{1.5em}{2} Benkendorf, Reed, and K. Holsinger. 2023. Assessment of Current Upland Vegetation Conditions in the
 Uncompahgre Field Office, Gunnison Gorge, and Dominguez-Escalante National Conservation Areas U.S. Department of the Interior, Bureau of Land Management, Uncompahgre Field Office, Montrose, CO. 
 
 \newpage
