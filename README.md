@@ -151,8 +151,9 @@ If you only have a couple of these, don't worry about copy and pasting the above
 
 **The following packages are a little bit more uncommon, but are used throughout the project:**  
 
+```
 install.packages(c("bipartite", "cowplot", "ggalluvial", "ggnewscale", "ggpubr", "ggspatial", "ggthemes", "grid", "gridExtra", "hrbrthemes", "prism", "scales", "tigris", "waffle") ) 
- 
+```
 bipartite (networks)  
 cowplot (multi-panel plots)  
 ggalluvial (alluvial plot)   
@@ -169,9 +170,9 @@ tigris (census bureau data)
 waffle (waffleplots)   
 
 **the following packages are only used once or twice throughout the project.**
-
+```
 install.packages(c("circlize", "doParallel", "factoextra", "FactoMineR", "glcm", "gt", "here",  "iNEXT", "jpeg", "MuMin", "parallel", "randomForest", "reshape2", "RImagePalette", "usdm", "vegan"))
-
+```
 circlize (circle graph, vegetation classification)   
 doParallel (split cores)   
 factoextra (PCA, vegetation classification)   
